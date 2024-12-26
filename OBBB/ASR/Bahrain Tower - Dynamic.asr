@@ -1,9 +1,6 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\Moiz\Documents\GitHub\Khaleej-Sector-File-OBBB\OBBB-Developer-2024_20241204223928-241201-0002.sct
-SECTORTITLE:OBBB-Developer-2024_20241204223928-241201-0002.sct
-Geo:OBBB Landmark Coastline:
 SHOWC:1
 SHOWSB:0
 BELOW:350
