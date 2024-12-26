@@ -1,0 +1,2 @@
+[DCL]
+DCL:OBBI:SID:<callsign> CLRD TO <ades> OFF <drwy> AFTER DEP FLY HDG <ahdg> INITIAL CLIMB <cfl> SQUAWK <assr> NEXT FREQ <freq_next> ATIS <rmk>

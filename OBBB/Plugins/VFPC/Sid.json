@@ -1,0 +1,89 @@
+[
+   {
+      "icao": "OBBI",
+      "sids": {
+         "BHR": [
+            {
+               "direction": "EVEN",
+               "max_fl": 260,
+               "destinations": [
+                  "OKKK"
+
+               ],
+               "airways": [
+                  "A453"
+               ]
+            },
+            {
+               "direction": "EVEN",
+               "airways": [
+                  "B457",
+                  "L319",
+                  "M444",
+                  "T444"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "max_fl": 33000,
+               "destinations": [
+                  "OOMS"
+
+               ],
+               "airways": [
+                  "N697"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "max_fl": 25000,
+               "destinations": [
+                  "OMAA",
+                  "OMAD",
+                  "OMAL",
+                  "OMDB",
+                  "OMDW",
+                  "OMRK",
+                  "OMSJ"
+
+               ],
+               "airways": [
+                  "N685",
+                  "N697"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "max_fl": 23000,
+               "destinations": [
+                  "OOSH"
+
+               ],
+               "airways": [
+                  "N685"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "max_fl": 11000,
+               "destinations": [
+                  "OTHH",
+                  "OTBD"
+
+               ],
+               "airways": [
+                  "N685"
+               ]
+            },
+            {
+               "direction": "ODD",
+               "airways": [
+                  "L319",
+                  "N685",
+                  "N697"
+               ]
+            }
+         ]
+      }
+   }
+]

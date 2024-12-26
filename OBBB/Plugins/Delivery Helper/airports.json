@@ -1,0 +1,20 @@
+{
+  "OBBI": {
+    "elevation": 8,
+    "sids": {
+      "BHR": {
+        "cfl": 3000,
+        "rwys": {
+          "12L": {
+            "dep": "BHR",
+            "prio": 1
+          },
+          "30R": {
+            "dep": "BHR",
+            "prio": 1
+          }
+        }
+      }
+    }
+  }
+}

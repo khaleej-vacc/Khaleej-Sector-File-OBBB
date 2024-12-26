@@ -1,0 +1,20 @@
+----------OBBB----------
+OBBB_1_CTR Bahrain Radar
+OBBB_2_CTR Bahrain Radar
+OBBB_3_CTR Bahrain Radar
+OBBB_N_CTR Bahrain Radar
+OBBB_CH_CTR Bahrain Radar
+OBBB_CL_CTR Bahrain Radar
+OBBB_E_CTR Bahrain Radar
+OBBB_FM_CTR Bahrain Radar - Flow Manager
+OBBI_APP Bahrain Approach
+OBBI_FM_APP Bahrain Approach - Flow Manager
+OBBI_TWR Bahrain Tower
+OBBI_FM_TWR Bahrain Tower - Flow Manager
+OBBI_GND Bahrain Ground
+OBBI_FM_GND Bahrain Ground - Flow Manager
+OBBI_DEL Bahrain Delivery
+OBBI_FM_DEL Bahrain Delivery - Flow Manager
+OBKH_TWR Sakhir Tower
+OBBS_APP Isa-Airbase Approach Radar
+OBBS_TWR Isa-Airbase Tower

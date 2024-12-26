@@ -1,0 +1,23 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:
+SECTORTITLE:
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:2500
+LEADER:5
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:328.00000
+TAGFAMILY:GRplugin
+WINDOWAREA:26.262266:50.606185:26.287273:50.658244
+PLUGIN:Ground Radar plugin:AirportElevation:8
+PLUGIN:Ground Radar plugin:AirportRadius:2.0
+PLUGIN:Ground Radar plugin:GroundMode:OBBI
+PLUGIN:TopSky plugin:NoDraw:1

@@ -1,0 +1,16 @@
+// File created for the Arabian vACC - Bahrain FIR (OBBB)
+// Developed and maintained by Chriss Klosowski (1306415)
+//
+// Last Change by Chriss Klosowski
+//
+// Changelog:
+// 14/04/2024 - Initial Release
+//
+// To be used on the VATSIM Network only
+
+// Bahrain FIR
+S:N026.15.30.409:E050.39.19.530:090:145:0:5:1300
+S:N026.15.30.409:E050.39.19.530:145:270:0:20:2000
+S:N026.15.30.409:E050.39.19.530:270:325:0:5:1300
+S:N026.15.30.409:E050.39.19.530:325:090:0:5:2000
+S:N026.15.30.409:E050.39.19.530:270:145:5:20:1200

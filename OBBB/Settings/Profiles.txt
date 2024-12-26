@@ -1,0 +1,42 @@
+PROFILE
+PROFILE:(INITIALS)_OBS:300:0
+ATIS2:Khaleej vACC - Observer
+ATIS3:Information - vats.im/arb/information
+ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
+PROFILE:OBBS_APP:150:5
+ATIS2:"Isa-Airbase Approach Radar"
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
+PROFILE:OBBI_TWR:50:4
+ATIS2:"Bahrain Tower" - DCL [OBBI]
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
+PROFILE:OBBI_FM_TWR:50:4
+ATIS2:"Bahrain Tower Planner" - DO NOT CONTACT ME!
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
+PROFILE:OBBS_TWR:50:4
+ATIS2:"Isa-Airbase Tower"
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
+PROFILE:OBKH_TWR:50:4
+ATIS2:"Sakhir Tower"
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
+PROFILE:OBBI_GND:20:3
+ATIS2:"Bahrain Ground" - DCL [OBBI]
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
+PROFILE:OBBI_FM_GND:20:3
+ATIS2:"Bahrain Ground" - DO NOT CONTACT ME!
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
+PROFILE:OBBI_DEL:20:2
+ATIS2:"Bahrain Delivery" - DCL [OBBI]
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
+PROFILE:OBBI_FM_DEL:20:2
+ATIS2:"Bahrain Delivery" - DO NOT CONTACT ME!
+ATIS3:Give us feedback! - vats.im/khatcfdb
+ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
+END
