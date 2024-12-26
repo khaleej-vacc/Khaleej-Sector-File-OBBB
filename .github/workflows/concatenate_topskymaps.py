@@ -20,7 +20,7 @@ def concatenate_files(source_directory, output_file):
 def main():
     base_dir = '.data/TopSkyMaps'
     targets = [
-        ('TopSky', 'OBBB/Plugins/TopSky/TopSkyMaps.txt'),
+        ('TopSky', 'OBBB/Plugins/TopSky Bahrain FIR/TopSkyMaps.txt'),
         ('TopSky Aerodrome', 'OBBB/Plugins/TopSky Aerodrome/TopSkyMaps.txt'),
     ]
 

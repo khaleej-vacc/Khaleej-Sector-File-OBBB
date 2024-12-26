@@ -32,7 +32,7 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add 'OBBB/Plugins/TopSky/TopSkyMaps.txt'
+        git add 'OBBB/Plugins/TopSky Bahrain FIR/TopSkyMaps.txt'
         git add 'OBBB/Plugins/TopSky Aerodrome/TopSkyMaps.txt'
         git commit -m 'Update TopSkyMaps files'
         git push
@@ -42,6 +42,6 @@ jobs:
       with:
         name: Upload cleaned files
         path: |
-          OBBB/Plugins/TopSky/TopSkyMaps.txt
+          OBBB/Plugins/TopSky Bahrain FIR/TopSkyMaps.txt
           OBBB/Plugins/TopSky Aerodrome/TopSkyMaps.txt
           

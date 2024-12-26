@@ -32,8 +32,8 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add 'OBBB/Plugins/GRplugin/GRpluginMaps.txt'
-        git add 'OBBB/Plugins/GRplugin/GRpluginStands.txt'
+        git add 'OBBB/Plugins/Ground Radar Plugin/GRpluginMaps.txt'
+        git add 'OBBB/Plugins/Ground Radar Plugin/GRpluginStands.txt'
         git commit -m 'Update Ground Radar Plugin files'
         git push
 
@@ -42,6 +42,6 @@ jobs:
       with:
         name: Upload cleaned files
         path: |
-          OBBB/Plugins/GRplugin/GRpluginMaps.txt
-          OBBB/Plugins/GRplugin/GRpluginStands.txt
+          OBBB/Plugins/Ground Radar Plugin/GRpluginMaps.txt
+          OBBB/Plugins/Ground Radar Plugin/GRpluginStands.txt
           
