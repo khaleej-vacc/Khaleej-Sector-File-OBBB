@@ -57,7 +57,7 @@ DEP
 m_Visible:1
 m_X:6
 m_Y:69
-m_LineNumber:10
+m_LineNumber:0
 m_Resizable:1
 m_OrderingColumn:-14
 m_HeaderOnly:0
@@ -86,13 +86,13 @@ m_Column:RMK:10:1:155:2:2:1:TopSky plugin:TopSky plugin:TopSky plugin:1:0.0
 END
 ARR
 m_Visible:1
-m_X:1212
-m_Y:58
+m_X:935
+m_Y:70
 m_LineNumber:0
 m_Resizable:1
-m_OrderingColumn:1
+m_OrderingColumn:3
 m_HeaderOnly:0
-m_Column:CTL:7:1:640:0:0:1:VCH:::0:0.0
+m_Column:CTL:7:1:640:0:0:0:VCH:::0:0.0
 m_Column:C/S:9:1:9:0:0:1::::0:0.0
 m_Column:STAND:7:1:2:1:0:1:Ground Radar plugin:Ground Radar plugin::0:0.0
 m_Column:TXT:6:1:19:29:0:1::::1:0.0
