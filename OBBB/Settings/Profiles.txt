@@ -2,7 +2,7 @@ PROFILE
 PROFILE:(INITIALS)_OBS:241:0
 ATIS2:Khaleej vACC - Observer
 ATIS3:Covering the Bahrain GMC
-ATIS4:How is my driving? Tell me at vats.im/khljfdb
+ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBS_APP:150:5
 ATIS2:"Isa-Airbase Approach Radar"
 ATIS3:Give us feedback! - vats.im/khatcfdb
