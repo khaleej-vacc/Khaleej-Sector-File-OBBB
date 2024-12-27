@@ -1,7 +1,7 @@
 PROFILE
 PROFILE:(INITIALS)_OBS:300:0
 ATIS2:Khaleej vACC - Observer
-ATIS3:Information - vats.im/arb/information
+ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBB_1_CTR:400:6
 ATIS2:"Bahrain Radar"
