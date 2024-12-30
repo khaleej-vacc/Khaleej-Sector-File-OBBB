@@ -3,7 +3,7 @@
     "elevation": 8,
     "sids": {
       "BHR": {
-        "cfl": 3000,
+        "cfl": 4000,
         "rwys": {
           "12L": {
             "dep": "BHR",
