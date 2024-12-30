@@ -14,25 +14,26 @@
       "frequency": 127200000,
       "atisVoice": {
         "useTextToSpeech": true,
-        "voice": "Default"
+        "voice": "UK Female"
       },
+      "idsEndpoint": "",
       "useNotamPrefix": true,
-      "useDecimalTerminology": false,
+      "useDecimalTerminology": true,
       "airportConditionsBeforeFreeText": false,
       "notamsBeforeFreeText": false,
       "presets": [
         {
           "id": "7f7795f2-57d0-4171-9335-453a68acd534",
-          "name": "30R - NORTH-WEST CONFIG",
-          "template": "[FACILITY] DEP ARR [ATIS_LETTER] [TIME]. EXP ILS APPROACH/ LDG 30R DEP 30R IN USE. CTN FLOCKS OF BIRDS IN THE VISINITY OF THE AERODROME.. WIND [SURFACE_WIND]. VIS [VIS]. T [TEMP] / DP [DEW]. QNH [PRESSURE] HPA. TREND [CLOUDS]. END OF ATIS [ATIS_LETTER].",
+          "name": "30R | NORTH CONFIGURATION",
+          "template": "[FACILITY] DEP ARR [ATIS_LETTER] [TIME]. DEP AND ARR RUNWAY 30R IN USE. WIND [SURFACE_WIND]. VIS [VIS]. T [TEMP] / DP [DEW]. QNH [PRESSURE] HPA. TREND [CLOUDS]. END OF ATIS [ATIS_LETTER].",
           "externalGenerator": {
             "enabled": false
           }
         },
         {
           "id": "3727781d-e8b2-4b62-a555-23d3bce21e5a",
-          "name": "12L - SOUTH-EAST CONFIG",
-          "template": "[FACILITY] DEP ARR [ATIS_LETTER] [TIME]. EXP ILS APPROACH/ LDG 12L DEP 12L IN USE. CTN FLOCKS OF BIRDS IN THE VISINITY OF THE AERODROME.. WIND [SURFACE_WIND]. VIS [VIS]. T [TEMP] / DP [DEW]. QNH [PRESSURE] HPA. TREND [CLOUDS]. END OF ATIS [ATIS_LETTER].",
+          "name": "12L | SOUTH CONFIGURATION",
+          "template": "[FACILITY] DEP ARR [ATIS_LETTER] [TIME]. DEP AND ARR 12L IN USE. WIND [SURFACE_WIND]. VIS [VIS]. T [TEMP] / DP [DEW]. QNH [PRESSURE] HPA. TREND [CLOUDS]. END OF ATIS [ATIS_LETTER].",
           "externalGenerator": {
             "enabled": false
           }
@@ -257,8 +258,8 @@
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
-            "text": "A{altimeter} ({altimeter|text})",
-            "voice": "ALTIMETER {altimeter}"
+            "text": "{altimeter}",
+            "voice": "QNH {altimeter}"
           }
         },
         "transitionLevel": {

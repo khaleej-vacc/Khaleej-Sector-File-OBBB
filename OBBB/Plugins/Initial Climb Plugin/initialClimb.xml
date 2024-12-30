@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<initialClimb>
+	<apt icao="OBBI">
+	    <runway name="30R">
+			<sid name="BHR">
+				<alt>040</alt>
+			</sid>
+		</runway>
+		<runway name="12L">
+			<sid name="BHR">
+				<alt>040</alt>
+			</sid>
+		</runway>
+	</apt>
+</initialClimb>

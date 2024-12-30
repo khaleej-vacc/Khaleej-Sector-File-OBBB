@@ -1,5 +1,5 @@
 m_PlaySounds:1
-m_AssumeSlowAcAsStandby:1
+m_AssumeSlowAcAsStandby:0
 m_ShowAirspaceLines:1
 m_ShowRouteFixName:1
 m_ShowRouteETA:1
@@ -35,7 +35,7 @@ m_InhibitAutoPushOnHandoff:0
 m_RandomSquawks:1
 m_VFRSquawks:7000,1000
 m_WhoIsOnlineURL:http://vatsim.metacraft.com/vatsim-data.txt
-m_AutoLoadMetarForActiveAirports:1
+m_AutoLoadMetarForActiveAirports:0
 m_LockShowRouteWhenAccepting:0
 m_VoiceAtisBuilderUrl:http://vacchun.hu/td/esmetar.php?tlcond=100,1013,110&metar=$metar($atisairport)&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&app=ILS&par=1&info=$atiscode&lvp=2
 m_DoNotUseAcceptedColor:1
@@ -53,7 +53,7 @@ m_ShowRAMWarning:1
 m_MagneticNorthUp:1
 m_ShowAForAltitudes:1
 m_Show500ForNonVisual:1
-SET_SetActiveAptBySectors:1
+SET_SetActiveAptBySectors:0
 SET_CapitalizeFPAndScratch:1
 m_SET_WTC_Light:L
 SET_WTC_Medium:M

@@ -87,3 +87,4 @@ Plugins	Plugin8	\OBBB\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
 Plugins	Plugin8Display0	Ground Radar display
 Plugins	Plugin8Display1	DelHel
 Plugins	Plugin8Display2	Standard ES radar screen
+Plugins	Plugin9	\OBBB\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
