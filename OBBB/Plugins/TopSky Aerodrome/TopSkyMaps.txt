@@ -1,5 +1,5 @@
 // File created for the Khaleej vACC - Bahrain FIR (OBBB)
-// Developed and maintained by the Khaleej vACC Operation Department
+// Developed and maintained by the Khaleej vACC Operations Department
 // Initially issued by the Arabian vACC
 
 // Color Definitions
