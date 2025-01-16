@@ -1,70 +1,17 @@
 {
+  "version": 1,
   "name": "Bahrain FIR (OBBB)",
-  "id": "5b619225-0a5a-4328-8da7-d434a0bee29f",
-  "composites": [
+  "id": "b69e5dfd-2f92-4d81-a2b1-5d536ca8162b",
+  "stations": [
     {
       "id": "614ca20c-6a91-4626-9ae7-0f5963275ba2",
-      "name": "Bahrain",
       "identifier": "OBBI",
+      "name": "Bahrain",
       "atisType": "Combined",
       "codeRange": {
         "low": "A",
         "high": "Z"
       },
-      "frequency": 127200000,
-      "atisVoice": {
-        "useTextToSpeech": true,
-        "voice": "UK Female"
-      },
-      "idsEndpoint": "",
-      "useNotamPrefix": true,
-      "useDecimalTerminology": true,
-      "airportConditionsBeforeFreeText": false,
-      "notamsBeforeFreeText": false,
-      "presets": [
-        {
-          "id": "7f7795f2-57d0-4171-9335-453a68acd534",
-          "name": "30R | NORTH CONFIGURATION",
-          "template": "[FACILITY] DEP ARR [ATIS_LETTER] [TIME]. DEP AND ARR RUNWAY 30R IN USE. WIND [SURFACE_WIND]. VIS [VIS]. T [TEMP] / DP [DEW]. QNH [PRESSURE] HPA. TREND [CLOUDS]. END OF ATIS [ATIS_LETTER].",
-          "externalGenerator": {
-            "enabled": false
-          }
-        },
-        {
-          "id": "3727781d-e8b2-4b62-a555-23d3bce21e5a",
-          "name": "12L | SOUTH CONFIGURATION",
-          "template": "[FACILITY] DEP ARR [ATIS_LETTER] [TIME]. DEP AND ARR 12L IN USE. WIND [SURFACE_WIND]. VIS [VIS]. T [TEMP] / DP [DEW]. QNH [PRESSURE] HPA. TREND [CLOUDS]. END OF ATIS [ATIS_LETTER].",
-          "externalGenerator": {
-            "enabled": false
-          }
-        }
-      ],
-      "contractions": [
-        {
-          "string": "T",
-          "spoken": "TEMPERATURE"
-        },
-        {
-          "string": "DP",
-          "spoken": "DEW POINT"
-        },
-        {
-          "string": "LVO",
-          "spoken": "LOW VISIBILITY OPERATIONS"
-        },
-        {
-          "string": "CTN",
-          "spoken": "CAUTION"
-        }
-      ],
-      "airportConditionDefinitions": [
-        {
-          "ordinal": 1,
-          "text": "LVO ENFORCED",
-          "enabled": false
-        }
-      ],
-      "notamDefinitions": [],
       "atisFormat": {
         "observationTime": {
           "template": {
@@ -139,93 +86,181 @@
           "moderateIntensity": "",
           "heavyIntensity": "heavy",
           "vicinity": "in vicinity",
-          "weatherDescriptors": {
-            "BC": "patches",
-            "BL": "blowing",
-            "BR": "mist",
-            "DZ": "drizzle",
-            "DS": "dust storm",
-            "DR": "low drifting",
-            "DU": "widespread dust",
-            "FC": "funnel cloud tornado waterspout",
-            "FG": "fog",
-            "FZ": "freezing",
-            "FU": "smoke",
-            "GR": "hail",
-            "GS": "small hail, snow pellets",
-            "HZ": "haze",
-            "IC": "ice crystals",
-            "MI": "shallow",
-            "PL": "ice pellets",
-            "PO": "well developed dust, sand whirls",
-            "PR": "partial",
-            "PY": "spray",
-            "RA": "rain",
-            "SA": "sand",
-            "SG": "snow grains",
-            "SH": "showers",
-            "SN": "snow",
-            "SQ": "squalls",
-            "SS": "sandstorm",
-            "TS": "thunderstorm",
-            "UP": "unknown precipitation",
-            "VA": "volcanic ash"
+          "presentWeatherTypes": {
+            "DZ": {
+              "text": "DZ",
+              "spoken": "drizzle"
+            },
+            "RA": {
+              "text": "RA",
+              "spoken": "rain"
+            },
+            "SN": {
+              "text": "SN",
+              "spoken": "snow"
+            },
+            "SG": {
+              "text": "SG",
+              "spoken": "snow grains"
+            },
+            "IC": {
+              "text": "IC",
+              "spoken": "ice crystals"
+            },
+            "PL": {
+              "text": "PL",
+              "spoken": "ice pellets"
+            },
+            "GR": {
+              "text": "GR",
+              "spoken": "hail"
+            },
+            "GS": {
+              "text": "GS",
+              "spoken": "small hail, snow pellets"
+            },
+            "UP": {
+              "text": "UP",
+              "spoken": "unknown precipitation"
+            },
+            "BR": {
+              "text": "BR",
+              "spoken": "mist"
+            },
+            "FG": {
+              "text": "FG",
+              "spoken": "fog"
+            },
+            "FU": {
+              "text": "FU",
+              "spoken": "smoke"
+            },
+            "VA": {
+              "text": "VA",
+              "spoken": "volcanic ash"
+            },
+            "DU": {
+              "text": "DU",
+              "spoken": "widespread dust"
+            },
+            "SA": {
+              "text": "SA",
+              "spoken": "sand"
+            },
+            "HZ": {
+              "text": "HZ",
+              "spoken": "haze"
+            },
+            "PY": {
+              "text": "PY",
+              "spoken": "spray"
+            },
+            "PO": {
+              "text": "PO",
+              "spoken": "well developed dust, sand whirls"
+            },
+            "SQ": {
+              "text": "SQ",
+              "spoken": "squalls"
+            },
+            "FC": {
+              "text": "FC",
+              "spoken": "funnel cloud tornado waterspout"
+            },
+            "SS": {
+              "text": "SS",
+              "spoken": "sandstorm"
+            },
+            "DS": {
+              "text": "DS",
+              "spoken": "dust storm"
+            },
+            "PR": {
+              "text": "PR",
+              "spoken": "partial"
+            },
+            "BC": {
+              "text": "BC",
+              "spoken": "patches"
+            },
+            "MI": {
+              "text": "MI",
+              "spoken": "shallow"
+            },
+            "DR": {
+              "text": "DR",
+              "spoken": "low drifting"
+            },
+            "BL": {
+              "text": "BL",
+              "spoken": "blowing"
+            },
+            "SH": {
+              "text": "SH",
+              "spoken": "showers"
+            },
+            "TS": {
+              "text": "TS",
+              "spoken": "thunderstorm"
+            },
+            "FZ": {
+              "text": "FZ",
+              "spoken": "freezing"
+            }
           },
           "template": {
             "text": "{weather}",
             "voice": "{weather}"
           }
         },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
         "clouds": {
           "identifyCeilingLayer": true,
           "convertToMetric": false,
+          "isAltitudeInHundreds": false,
           "undeterminedLayerAltitude": {
             "text": "undetermined",
             "voice": "undetermined"
           },
           "types": {
             "FEW": {
-              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "FEW{altitude}",
               "voice": "few clouds at {altitude}"
             },
             "SCT": {
-              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "SCT{altitude}{convective}",
               "voice": "{altitude} scattered {convective}"
             },
             "BKN": {
-              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "BKN{altitude}{convective}",
               "voice": "{altitude} broken {convective}"
             },
             "OVC": {
-              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "OVC{altitude}{convective}",
               "voice": "{altitude} overcast {convective}"
             },
             "VV": {
-              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "VV{altitude}",
               "voice": "indefinite ceiling {altitude}"
             },
             "NSC": {
-              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "NSC",
               "voice": "no significant clouds"
             },
             "NCD": {
-              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "NCD",
               "voice": "no clouds detected"
             },
             "CLR": {
-              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "CLR",
               "voice": "sky clear below one-two thousand"
             },
             "SKC": {
-              "$type": "Vatsim.Vatis.Profiles.AtisFormat.Nodes.CloudType, vATIS",
               "text": "SKC",
               "voice": "sky clear"
             }
@@ -241,7 +276,7 @@
         },
         "temperature": {
           "usePlusPrefix": false,
-          "pronounceLeadingZero": false,
+          "speakLeadingZero": false,
           "template": {
             "text": "{temp}",
             "voice": "TEMPERATURE {temp}"
@@ -249,7 +284,7 @@
         },
         "dewpoint": {
           "usePlusPrefix": false,
-          "pronounceLeadingZero": false,
+          "speakLeadingZero": false,
           "template": {
             "text": "{dewpoint}",
             "voice": "DEWPOINT {dewpoint}"
@@ -269,6 +304,12 @@
             "voice": "TRANSITION LEVEL {trl}"
           }
         },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
@@ -276,7 +317,69 @@
             "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
           }
         }
-      }
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 127200000,
+      "idsEndpoint": "",
+      "useDecimalTerminology": true,
+      "atisVoice": {
+        "useTextToSpeech": true,
+        "voice": "UK Female"
+      },
+      "presets": [
+        {
+          "id": "7f7795f2-57d0-4171-9335-453a68acd534",
+          "name": "30R | NORTH CONFIGURATION",
+          "template": "[FACILITY] DEP ARR [ATIS_LETTER] [TIME]. EXP ILS APPROACH/ LDG 30R DEP IN USE. @CTN FLOCKS OF BIRDS IN THE VICINITY OF THE @AD. WIND [SURFACE_WIND]. VIS [VIS]. @T [TEMP] / @DP [DEW]. QNH [PRESSURE] HPA. TREND [CLOUDS]. END OF ATIS [ATIS_LETTER].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "3727781d-e8b2-4b62-a555-23d3bce21e5a",
+          "name": "12L | SOUTH CONFIGURATION",
+          "template": "[FACILITY] DEP ARR [ATIS_LETTER] [TIME]. EXP ILS APPROACH/ LDG 12L DEP IN USE. @CTN FLOCKS OF BIRDS IN THE VICINITY OF THE @AD. WIND [SURFACE_WIND]. VIS [VIS]. @T [TEMP] / @DP [DEW]. QNH [PRESSURE] HPA. TREND [CLOUDS]. END OF ATIS [ATIS_LETTER].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [
+        {
+          "variableName": "T",
+          "text": "T",
+          "voice": "TEMPERATURE"
+        },
+        {
+          "variableName": "DP",
+          "text": "DP",
+          "voice": "DEW POINT"
+        },
+        {
+          "variableName": "LVO",
+          "text": "LVO",
+          "voice": "LOW VISIBILITY OPERATIONS"
+        },
+        {
+          "variableName": "CTN",
+          "text": "CTN",
+          "voice": "CAUTION"
+        },
+        {
+          "variableName": "AD",
+          "text": "AD",
+          "voice": "AERODROME"
+        }
+      ],
+      "airportConditionDefinitions": [
+        {
+          "text": "LVO ENFORCED",
+          "ordinal": 1,
+          "enabled": false
+        }
+      ],
+      "notamDefinitions": []
     }
   ]
 }
