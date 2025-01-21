@@ -83,3 +83,6 @@ LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 Settings	sector	\OBBB-Developer-2024_20241204223928-241201-0002.sct
 LastSession	callsign	(INITIALS)_OBS
+RecentFiles	Recent3	\OBBB\ASR\SMGCS\Isa Airbase SMGCS.asr
+Plugins	Plugin8	\OBBB\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
+Plugins	Plugin9	\OBBB\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
