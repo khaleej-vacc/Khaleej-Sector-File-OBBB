@@ -1,0 +1,23 @@
+DisplayTypeName:Ground Radar display
+DisplayTypeNeedRadarContent:0
+DisplayTypeGeoReferenced:1
+SECTORFILE:C:\Users\Moiz\Documents\GitHub\Khaleej-Sector-File-OBBB\OBBB-Developer-2024_20250118162915-241301-0006.sct
+SECTORTITLE:OBBB-Developer-2024_20250118162915-241301-0006.sct
+SHOWC:1
+SHOWSB:0
+BELOW:0
+ABOVE:2500
+LEADER:5
+SHOWLEADER:0
+TURNLEADER:0
+HISTORY_DOTS:0
+SIMULATION_MODE:1
+DISABLEPANNING:0
+DISABLEZOOMING:0
+DisplayRotation:269.00000
+TAGFAMILY:GRplugin
+WINDOWAREA:26.015479:50.499090:26.044700:50.559938
+PLUGIN:Ground Radar plugin:AirportElevation:76
+PLUGIN:Ground Radar plugin:AirportRadius:2.0
+PLUGIN:Ground Radar plugin:GroundMode:OBKH
+PLUGIN:TopSky plugin:NoDraw:1
