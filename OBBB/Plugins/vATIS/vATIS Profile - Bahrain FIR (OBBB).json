@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "Bahrain FIR (OBBB)",
-  "id": "b69e5dfd-2f92-4d81-a2b1-5d536ca8162b",
+  "id": "8b451514-1838-470c-92ff-3a63c769bd92",
   "stations": [
     {
       "id": "614ca20c-6a91-4626-9ae7-0f5963275ba2",
@@ -20,20 +20,20 @@
           }
         },
         "surfaceWind": {
-          "speakLeadingZero": false,
+          "speakLeadingZero": true,
           "magneticVariation": {
             "enabled": false,
             "magneticDegrees": 0
           },
           "standard": {
             "template": {
-              "text": "{wind_dir}{wind_spd}KT",
+              "text": "wind {wind_dir}{wind_spd}KT",
               "voice": "WIND {wind_dir} AT {wind_spd}"
             }
           },
           "standardGust": {
             "template": {
-              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "text": "wind {wind_dir}{wind_spd}G{wind_gust}KT",
               "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
             }
           },
@@ -279,7 +279,7 @@
           "speakLeadingZero": false,
           "template": {
             "text": "{temp}",
-            "voice": "TEMPERATURE {temp}"
+            "voice": "{temp}"
           }
         },
         "dewpoint": {
@@ -287,14 +287,14 @@
           "speakLeadingZero": false,
           "template": {
             "text": "{dewpoint}",
-            "voice": "DEWPOINT {dewpoint}"
+            "voice": " {dewpoint}"
           }
         },
         "altimeter": {
           "pronounceDecimal": false,
           "template": {
             "text": "{altimeter}",
-            "voice": "QNH {altimeter}"
+            "voice": "{altimeter}"
           }
         },
         "transitionLevel": {
@@ -331,7 +331,9 @@
         {
           "id": "7f7795f2-57d0-4171-9335-453a68acd534",
           "name": "30R | NORTH CONFIGURATION",
-          "template": "[FACILITY] DEP ARR [ATIS_LETTER] [TIME]. EXP ILS APPROACH/ LDG 30R DEP IN USE. @CTN FLOCKS OF BIRDS IN THE VICINITY OF THE @AD. WIND [SURFACE_WIND]. VIS [VIS]. @T [TEMP] / @DP [DEW]. QNH [PRESSURE] HPA. TREND [CLOUDS]. END OF ATIS [ATIS_LETTER].",
+          "airportConditions": "",
+          "notams": "",
+          "template": "[FACILITY] DEP ARR [ATIS_LETTER] [TIME]. EXP @ILS APPROACH/ LDG @30R DEP IN USE. @CTN FLOCKS OF BIRDS IN THE VICINITY OF THE @AD. [SURFACE_WIND]. VIS [VIS]. @T [TEMP] / @DP [DEW]. QNH [PRESSURE] @HPA. [CLOUDS]. END OF ATIS [ATIS_LETTER].",
           "externalGenerator": {
             "enabled": false
           }
@@ -339,7 +341,9 @@
         {
           "id": "3727781d-e8b2-4b62-a555-23d3bce21e5a",
           "name": "12L | SOUTH CONFIGURATION",
-          "template": "[FACILITY] DEP ARR [ATIS_LETTER] [TIME]. EXP ILS APPROACH/ LDG 12L DEP IN USE. @CTN FLOCKS OF BIRDS IN THE VICINITY OF THE @AD. WIND [SURFACE_WIND]. VIS [VIS]. @T [TEMP] / @DP [DEW]. QNH [PRESSURE] HPA. TREND [CLOUDS]. END OF ATIS [ATIS_LETTER].",
+          "airportConditions": "",
+          "notams": "",
+          "template": "[FACILITY] DEP ARR [ATIS_LETTER] [TIME]. EXP @ILS APPROACH/ LDG @12L DEP IN USE. @CTN FLOCKS OF BIRDS IN THE VICINITY OF THE @AD. WIND [SURFACE_WIND]. VIS [VIS]. @T [TEMP] / @DP [DEW]. QNH [PRESSURE] @HPA.[CLOUDS]. END OF ATIS [ATIS_LETTER].",
           "externalGenerator": {
             "enabled": false
           }
@@ -370,6 +374,26 @@
           "variableName": "AD",
           "text": "AD",
           "voice": "AERODROME"
+        },
+        {
+          "variableName": "12L",
+          "text": "12L",
+          "voice": "ONE-TWO-LEFT"
+        },
+        {
+          "variableName": "30R",
+          "text": "30R",
+          "voice": "THREE-ZERO-RIGHT"
+        },
+        {
+          "variableName": "HPA",
+          "text": "HPA",
+          "voice": "HECK-TOE-PAS-CALS"
+        },
+        {
+          "variableName": "ILS",
+          "text": "ILS",
+          "voice": "EYE-L-ESS"
         }
       ],
       "airportConditionDefinitions": [
