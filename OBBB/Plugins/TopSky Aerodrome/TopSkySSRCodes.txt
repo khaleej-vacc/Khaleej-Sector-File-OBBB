@@ -8,7 +8,7 @@
 //
 // To be used on the VATSIM Network only
 
-// 4401 to 4477: Bahrain Primary
+// 4401 to 4477, 2201 to 2277: Bahrain Primary
 // 1201 to 1277, 2701 to 2777: Bahrain Domestic
 
 // Bahrain Departure Squawk
@@ -16,22 +16,28 @@ RANGE:4401:4477
 ADEP:OBBI:OB
 IFR
 
-// Bahrain Domestic Squawk
-RANGE:2701:2777
+// Bahrain Departure Squawk
+RANGE:2201:2277
 ADEP:OBBI:OB
-ADES:OB:OT
 IFR
 
 // Bahrain Domestic Squawk
-RANGE:2701:2777
+RANGE:3701:3777
 ADEP:OBBI:OB
-ADES:OB:OT
+ADES:OB
+IFR
+
+// Bahrain Domestic Squawk
+RANGE:3701:3777
+ADEP:OBBI:OB
+ADES:OB
 
 // Area Control Center Arrivals
-RANGE:2101:2177
-ADES:OB:OT
+RANGE:1201:1277
+NOTADEP:OB
+ADES:OB
 
 // Area Control Center Transit
 RANGE:2201:2277
-NOTADEP:OB:OT
-NOTADES:OB:OT
+NOTADEP:OB
+NOTADES:OB
