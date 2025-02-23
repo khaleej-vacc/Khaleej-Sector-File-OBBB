@@ -1,7 +1,7 @@
-// File created for the Arabian vACC - Bahrain FIR (OBBB)
-// Developed and maintained by Chriss Klosowski (1306415)
+// File created for the Khaleej vACC - Bahrain FIR (OBBB)
+// Developed and maintained by Moiz Uddin (1758952)
 //
-// Last Change by Chriss Klosowski
+// Last Change by Moiz Uddin
 //
 // Changelog:
 // 14/04/2024 - Initial Release
@@ -136,8 +136,8 @@ Color_CARD_Mark_All=212,128,44
 Color_CARD_Mark_Own=212,128,44
 Color_CARD_Min_Sep=61,61,61
 Color_CARD_Time_Vector=170,231,197
-Color_Concerned=110,153,110
-Color_Coordination=225,225,225
+Color_Concerned=150,150,150
+Color_Coordination=220,220,220
 Color_CPDLC_Controller_Late=212,128,44
 Color_CPDLC_Discarded=128,128,128
 Color_CPDLC_DM_Request=30,250,250
@@ -210,7 +210,7 @@ Color_TSA_Active=93,138,195
 Color_TSA_Border_Highlight=0,0,0
 Color_TSA_Filter=0,0,255
 Color_TSA_Preactive=132,142,139
-Color_Unconcerned=0,0,157
+Color_Unconcerned=80,80,80
 Color_Unknown=239,224,42
 Color_Urgency=225,25,25
 Color_Urgency_FL=225,25,25

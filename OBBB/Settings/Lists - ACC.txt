@@ -1,7 +1,7 @@
 SIL
 m_Visible:1
-m_X:8
-m_Y:46
+m_X:2
+m_Y:53
 m_LineNumber:0
 m_Resizable:1
 m_OrderingColumn:7
@@ -29,8 +29,8 @@ m_Column:SPAD:8:1:64:2:20:1::TopSky plugin::1:0.0
 END
 SEL
 m_Visible:1
-m_X:8
-m_Y:80
+m_X:2
+m_Y:88
 m_LineNumber:20
 m_Resizable:1
 m_OrderingColumn:9
@@ -57,8 +57,8 @@ m_Column:RMK:7:1:156:2:2:1:TopSky plugin:TopSky plugin:TopSky plugin:1:0.0
 END
 DEP
 m_Visible:1
-m_X:8
-m_Y:114
+m_X:2
+m_Y:123
 m_LineNumber:0
 m_Resizable:1
 m_OrderingColumn:20

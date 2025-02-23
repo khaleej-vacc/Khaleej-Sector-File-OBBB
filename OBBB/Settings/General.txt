@@ -40,7 +40,7 @@ m_LockShowRouteWhenAccepting:0
 m_VoiceAtisBuilderUrl:http://vacchun.hu/td/esmetar.php?tlcond=100,1013,110&metar=$metar($atisairport)&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&app=ILS&par=1&info=$atiscode&lvp=2
 m_DoNotUseAcceptedColor:1
 m_DoNotUseRefusedColor:0
-SET_TransparentAcListBackground:1
+SET_TransparentAcListBackground:0
 m_PutIncomingCoordinationToFirst:0
 m_AutoProxyMode:0
 m_TransparentAcListSelectedBackground:0
