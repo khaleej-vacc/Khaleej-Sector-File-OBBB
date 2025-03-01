@@ -55,11 +55,11 @@ m_Column:RMK:7:1:156:2:2:1:TopSky plugin:TopSky plugin:TopSky plugin:1:0.0
 END
 DEP
 m_Visible:1
-m_X:6
-m_Y:95
+m_X:3
+m_Y:56
 m_LineNumber:0
 m_Resizable:1
-m_OrderingColumn:11
+m_OrderingColumn:16
 m_HeaderOnly:0
 m_Column:CTOT:4:1:5001:0:0:0:VATCAN Bookings:::0:0.0
 m_Column:REQ:4:1:546:0:548:1:VCH::VCH:0:0.0
@@ -86,8 +86,8 @@ m_Column:RMK:10:1:155:2:2:1:TopSky plugin:TopSky plugin:TopSky plugin:1:0.0
 END
 ARR
 m_Visible:1
-m_X:935
-m_Y:70
+m_X:943
+m_Y:64
 m_LineNumber:0
 m_Resizable:1
 m_OrderingColumn:3

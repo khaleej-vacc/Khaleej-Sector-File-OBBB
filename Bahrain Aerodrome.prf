@@ -62,14 +62,9 @@ Plugins	Plugin2	\OBBB\Plugins\Discord Euroscope\DiscordEuroscope.dll
 Plugins	Plugin3	\OBBB\Plugins\Ground Radar Plugin\GRplugin.dll
 Plugins	Plugin3Display0	Ground Radar display
 Plugins	Plugin4	\OBBB\Plugins\TopSky Bahrain FIR\TopSky.dll
-Plugins	Plugin4Display0	Standard ES radar screen
-Plugins	Plugin4Display1	Ground Radar display
-Plugins	Plugin5	\OBBB\Plugins\VACDM\vACDM.dll
-Plugins	Plugin6	\OBBB\Plugins\Virtual Controller Helper\VCH.dll
-Plugins	Plugin7	\OBBB\Plugins\VFPC\VFPC.dll
-Plugins	Plugin7Display0	Ground Radar display
-Plugins	Plugin7Display1	DelHel
-Plugins	Plugin7Display2	Standard ES radar screen
+Plugins	Plugin5	\OBBB\Plugins\TopSky Aerodrome\TopSky.dll
+Plugins	Plugin6	\OBBB\Plugins\VACDM\vACDM.dll
+Plugins	Plugin7	\OBBB\Plugins\Virtual Controller Helper\VCH.dll
 LastSession	atis_freq4	118000
 LastSession	connecttype	0
 LastSession	callsign	(INITIALS)_OBS
@@ -82,9 +77,15 @@ LastSession	atis4	Welcome to Bahrain | Visit khaleejvacc.net
 LastSession	range	300
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
-Settings	sector	\OBBB-Developer-2024_20241204223928-241201-0002.sct
-Plugins	Plugin8	\OBBB\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
+Settings	sector	\OBBB-Developer-2024_20250223224520-241301-0008.sct
+Plugins	Plugin8	\OBBB\Plugins\VFPC\VFPC.dll
 Plugins	Plugin8Display0	Ground Radar display
 Plugins	Plugin8Display1	DelHel
 Plugins	Plugin8Display2	Standard ES radar screen
-Plugins	Plugin9	\OBBB\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
+Plugins	Plugin9	\OBBB\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
+Plugins	Plugin9Display0	Ground Radar display
+Plugins	Plugin9Display1	DelHel
+Plugins	Plugin10	\OBBB\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
+Plugins	Plugin5Display0	Standard ES radar screen
+Plugins	Plugin5Display1	Ground Radar display
+Plugins	Plugin9Display2	Standard ES radar screen
