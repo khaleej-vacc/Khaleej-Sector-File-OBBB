@@ -28,7 +28,8 @@ Settings	airportcoords	\OBBB\NavData\icao.txt
 Settings	airways	\OBBB\NavData\airway.txt
 ASRFastKeys	1	\OBBB\ASR\Bahrain FIR - Dynamic.asr
 ASRFastKeys	2	\OBBB\ASR\SMGCS\Bahrain SMGCS.asr
-RecentFiles	Recent1	\OBBB\ASR\Bahrain FIR - Dynamic.asr
+ASRFastKeys	3	\OBBB\ASR\SMGCS\Isa Airbase SMGCS.asr
+RecentFiles	Recent1	\OBBB\ASR\SMGCS\Isa Airbase SMGCS.asr
 RecentFiles	Recent2	\OBBB\ASR\SMGCS\Bahrain SMGCS.asr
 TeamSpeakVccs	TsVccsMiniControlX	186
 TeamSpeakVccs	TsVccsMiniControlY	367
@@ -81,8 +82,11 @@ LastSession	atis4	Welcome to Bahrain | Visit khaleejvacc.net
 LastSession	range	300
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
-Settings	sector	\OBBB-Developer-2024_20241204223928-241201-0002.sct
+Settings	sector	\OBBB-Developer-2024_20250223224520-241301-0008.sct
 LastSession	callsign	(INITIALS)_OBS
-RecentFiles	Recent3	\OBBB\ASR\SMGCS\Isa Airbase SMGCS.asr
+RecentFiles	Recent3	\OBBB\ASR\Bahrain FIR - Dynamic.asr
 Plugins	Plugin8	\OBBB\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
 Plugins	Plugin9	\OBBB\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
+RecentFiles	Recent4	\OBBB\ASR\SMGCS\Isa Airbase SMGCS.asr
+Settings	AselKey	5111808
+Settings	FreqKey	3604480
