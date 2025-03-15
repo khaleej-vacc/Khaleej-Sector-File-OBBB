@@ -35,7 +35,7 @@ m_InhibitAutoPushOnHandoff:0
 m_RandomSquawks:1
 m_VFRSquawks:7000,1000
 m_WhoIsOnlineURL:http://vatsim.metacraft.com/vatsim-data.txt
-m_AutoLoadMetarForActiveAirports:0
+m_AutoLoadMetarForActiveAirports:1
 m_LockShowRouteWhenAccepting:0
 m_VoiceAtisBuilderUrl:http://vacchun.hu/td/esmetar.php?tlcond=100,1013,110&metar=$metar($atisairport)&arr=$arrrwy($atisairport)&dep=$deprwy($atisairport)&app=ILS&par=1&info=$atiscode&lvp=2
 m_DoNotUseAcceptedColor:1
