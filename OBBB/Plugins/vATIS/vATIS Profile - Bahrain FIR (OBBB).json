@@ -333,7 +333,7 @@
           "name": "30R | NORTH CONFIGURATION",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR [CLOSING] [TIME]\r\n\r\nATIS [ATIS_LETTER]\r\nEXP @ILS APPROACH/ LDG @30R DEP IN USE\r\n@CTN FLOCKS OF BIRDS IN THE VICINITY OF THE @AD .\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\nTREND [TREND]\r\n[NOTAMS]\r\n[CLOUDS]\r\nEND OF ATIS [CLOSING]",
+          "template": "[FACILITY] DEP ARR [CLOSING] [TIME]\r\n\r\nATIS [ATIS_LETTER]\r\nEXP @ILS APPROACH/ LDG @30R DEP IN USE\r\n@CTN FLOCKS OF BIRDS IN THE VICINITY OF THE @AD .\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\nTREND [TREND]\r\n[CLOUDS]\r\n[NOTAMS]\r\nEND OF ATIS [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
@@ -343,7 +343,7 @@
           "name": "12L | SOUTH CONFIGURATION",
           "airportConditions": "",
           "notams": "",
-          "template": "[FACILITY] DEP ARR [CLOSING] [TIME]\r\n\r\nATIS [ATIS_LETTER]\r\nEXP @ILS APPROACH/ LDG @12L DEP IN USE\r\n@CTN FLOCKS OF BIRDS IN THE VICINITY OF THE @AD .\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\nTREND [TREND]\r\n[NOTAMS]\r\n[CLOUDS]\r\nEND OF ATIS [CLOSING]",
+          "template": "[FACILITY] DEP ARR [CLOSING] [TIME]\r\n\r\nATIS [ATIS_LETTER]\r\nEXP @ILS APPROACH/ LDG @12L DEP IN USE\r\n@CTN FLOCKS OF BIRDS IN THE VICINITY OF THE @AD .\r\n[SURFACE_WIND]\r\nVIS [VIS]\r\n@T [TEMP] / @DP [DEW]\r\nQNH [PRESSURE] @HPA\r\nTREND [TREND]\r\n[CLOUDS]\r\n[NOTAMS]\r\nEND OF ATIS [CLOSING]",
           "externalGenerator": {
             "enabled": false
           }
