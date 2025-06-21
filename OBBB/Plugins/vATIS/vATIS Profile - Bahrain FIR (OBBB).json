@@ -314,7 +314,7 @@
           "autoIncludeClosingStatement": true,
           "template": {
             "text": "{letter|word}",
-            "voice": "END OF ATIS {letter|word}"
+            "voice": "{letter|word}"
           }
         }
       },
