@@ -12,7 +12,7 @@
 ;                                                                                                                         ;
 ;=========================================================================================================================;
 ;                                                                                                                         ;
-;  ALL RIGHTS RESERVED © AeroNav Association. NAV-DATA © AEROSOFT. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!   ;
+;  ALL RIGHTS RESERVED Â© AeroNav Association. NAV-DATA Â© AEROSOFT. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!   ;
 ;                                                                                                                         ;
 ;=========================================================================================================================;
 ;  The Global Nav Generator (GNG) and all it sub-modules where created by the AeroNav Association.                        ;
@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2412/1  ++  Valid period: 28/NOV/2024 - 25/DEC/2024  ++  File-Publisher: Arabian vACC - Bahrain - OBBB           ;
+;  AIRAC 2413/1  ++  Valid period: 26/DEC/2024 - 22/JAN/2025  ++  File-Publisher: Khaleej vACC - Bahrain FIR - OBBB       ;
 ;=========================================================================================================================;
 VOICE
 AG:OBBB_1_CTR Bahrain Radar:127.525:novoice:OBBB_1_CTR
@@ -35,6 +35,7 @@ AG:OBBB_E_CTR Bahrain Radar:132.850:novoice:OBBB_E_CTR
 AG:OBBB_FM_CTR Bahrain Radar:127.525:novoice:OBBB_FM_CTR
 AG:OBBB_N_CTR Bahrain Radar:126.700:novoice:OBBB_N_CTR
 AG:OBBI_APP Bahrain Approach:127.850:novoice:OBBI_APP
+AG:OBBI_F_APP Bahrain Director:119.100:novoice:OBBI_F_APP
 AG:OBBI_ATIS:127.200:novoice:OBBI_ATIS
 AG:OBBI_DEL Bahrain Delivery:121.900:novoice:OBBI_DEL
 AG:OBBI_FM_APP Bahrain Approach:127.850:novoice:OBBI_FM_APP
