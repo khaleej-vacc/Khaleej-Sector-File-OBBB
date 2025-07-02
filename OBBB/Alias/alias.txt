@@ -12,7 +12,7 @@
 ;                                                                                                                         ;
 ;=========================================================================================================================;
 ;                                                                                                                         ;
-;  ALL RIGHTS RESERVED   AeroNav Association. NAV-DATA   AEROSOFT. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!   ;
+;  ALL RIGHTS RESERVED © AeroNav Association. NAV-DATA © AEROSOFT. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!   ;
 ;                                                                                                                         ;
 ;=========================================================================================================================;
 ;  The Global Nav Generator (GNG) and all it sub-modules where created by the AeroNav Association.                        ;
@@ -23,12 +23,14 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2412/1  ++  Valid period: 28/NOV/2024 - 25/DEC/2024  ++  File-Publisher: Arabian vACC - Bahrain - OBBB           ;
+;  AIRAC 2413/1  ++  Valid period: 26/DEC/2024 - 22/JAN/2025  ++  File-Publisher: Khaleej vACC - Bahrain FIR - OBBB       ;
 ;=========================================================================================================================;
 ;*** 01 Before Initial Contact ***
 .cw .msg $aircraft Hello. You will enter my airspace shortly. Please contact me on $freq when $1
 .cp .msg $aircraft Hello. You will enter my airspace shortly. Please contact me on $freq when passing $uc($1).
 .cpl .msg $aircraft Hello. You will enter my airspace shortly. Please contact me on $freq when passing $uc($1) at FL $2.
+.mid .msg $aircraft Hello. You will enter my airspace shortly. Please contact me on $freq when passing MIDSI at FL200.
+.lad .msg $aircraft Hello. You will enter my airspace shortly. Please contact me on $freq when passing LADNA at altitude 9000ft
 .ct .msg $aircraft Hello. You will enter my airspace shortly. Please contact me on $freq at time $1 UTC.
 .cwr .msg $aircraft Hello. $radioname is providing top-down service for $dep. Please contact me on $freq when you are ready.
 .ci .msg $aircraft NO MOVEMENT without permission, please! $radioname is providing top-down service for $dep. HOLD POSITION and contact me IMMEDIATELY on $freq!
@@ -69,13 +71,9 @@
 .rrc Clearance available, report ready to copy.
 .ico Information $atiscode correct. 
 .icu Information $atiscode current. 
-.cl  Cleared to $arr via $sid departure, climb via the SID and maintain altitude $temp, squawk $squawk.
-.cla Cleared to $arr via $sid departure, runway $deprwy,  climb via the SID and maintain altitude $temp, squawk $squawk.
-.clrv Cleared to $arr, expect radar vectors after departure. After departure climb to $1 ft, squawk $squawk.
-.sid? Are you able to fly the $sid departure?
+.cl  Cleared to $arr via $1, expect radar vectors after departure, maintain altitude $temp, squawk $squawk.
+.cla Cleared to $arr via $1, expect radar vectors after departure, maintain altitude $temp, squawk $squawk.
 .invalfl Hello, it looks like you have an invalid flight level, your new cruise level is $1.
-.route Hello, it looks like you have an invalid route, your route is modified as follows: // $1 , flight planned route. // Please re-file your flight plan and amend the route accordingly in your FMC. When ready, request clearance as normal. To avoid getting rerouted in future you can take a look at vats.im/bahrm
-.routefull  Hello, it looks like you have an invalid route, expect a full reroute as follows: // $1  // Please re-file your flight plan and amend the route accordingly in your FMC. When ready, request clearance as normal. To avoid getting rerouted in future you can take a look at vats.im/bahrm
 
 ;*** 06 Startup / Pushback ***
 .rb Readback correct. 
@@ -121,7 +119,7 @@
 .rfd Are you ready for departure?
 .rfid Are you ready for immediate departure?
 .afid Are you able for departure from intersection $1?
-.cto Wind $winds($dep), runway $deprwy, cleared for take-off.
+.cto Wind $winds($dep), runway $deprwy, cleared for take-off. After departure fly heading $1.
 .ctoi Wind $winds($dep), runway $deprwy, from intersection $1, cleared for take-off.
 .cito Wind $winds($dep), runway $deprwy, cleared for immediate take-off.
 .toc Hold position, CANCEL take-off clearance, I say again, CANCEL take-off clearance.
@@ -196,6 +194,8 @@
 .et Expect RNAV transition for $1 approach runway $arrrwy
 .v Vectoring for $1 approach runway $arrrwy
 .ils Cleared ILS approach runway $arrrwy.
+.ils30 Turn right heading 270 degrees, cleared ILS approach runway 30R. Report established on the localiser.
+.ils12 Turn left heading 150 degrees, cleared ILS approach runway 12L. Report established on the localiser.
 .autoclearedils Cleared ILS approach runway $1.
 .rnav Cleared RNAV approach runway $arrrwy.
 .vor Cleared VOR/DME approach runway $arrrwy.
@@ -208,8 +208,12 @@
 .ris Report runway in sight.
 .wc wind $winds($arr)
 .re Report established
-.obsas30 after OBSAS route direct RIGAG then direct NAGAT, radar vectors thereafter
-.obsas12 after OBSAS route direct RIGAG then direct ALRAS, radar vectors thereafter
+.obsas30 after OBSAS route direct RIGAG then direct NAGAT, radar vectors thereafter.
+.obsas12 after OBSAS route direct RIGAG then direct ALRAS, radar vectors thereafter.
+.ordig .msg $aircraft Hello, please plan to descend 12,000ft level by ORDIG.
+.kobok .msg $aircraft Hello, please plan to descend 12,000ft level by KOBOK.
+.ladna .msg $aircraft Hello, please plan to descend 9,000ft level by LADNA.
+.tulub30 .msg $aircraft Hello, please plan to descend 4000ft level by TULUB.
 
 ;*** 12 Speed Control ***
 .rs Report speed.
@@ -280,7 +284,6 @@
 .xp .msg $aircraft It seems you are using XPlane with inappropriate graphic settings. Your computer is not able to render the requested number of frames in time thus slowing down your simulator. Please adjust your graphic settings to increase the frame rate.
 
 ;*** 17 Others ***
-.flpln Please file a flight plan, Thanks.
 .dis Disregard last transmission. 
 .ru Report unable.
 .rac Report aircraft type (and variant).
@@ -292,12 +295,13 @@
 .qa QNH $altim($arr).
 .sb Standby, I'll call you back.
 .r Roger.
-.on / Salam, $radioname is online.
-.off / $radioname is now closed. Masalama!
+.on /Salam, $radioname is online.
+.off /$radioname is now closed. FiAmaanAllah!
 .mic Stuck microphone, you are blocking the frequency. Please let go of the transmit button immediately.
 .why Getting rerouted? You will find that your route does not comply with the routing restrictions in the Middle East. To know more, send an email to whyamigettingrerouted@vatsim.me
 .noob It seems you don't know how to correctly operate your aircraft. Please consider learning offline to become proficient before joining the VATSIM network, or flying an aircraft that you are familiar with
 .charts It seems you are not familiar with the aerodrome, please ensure that you are using the latest charts that are available here https://chartfox.org/
+.flpln Please file a flight plan, Thanks.
 
 ;*** 18 AIRAC - AeroNav GNG ***
 .csr .msg $aircraft At the moment, your callsign is not listed in our database. Please register your airline on gng.aero-nav.com/AERONAV/icao_request_airlines. If you continue to fly in our region, your callsign may be included in our controller files.
