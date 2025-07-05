@@ -1,5 +1,5 @@
 [DCL]
-DCL:OBBI:SID:<callsign> CLRD TO <ades> OFF <drwy>. EXPECT RADAR VECTORS AFTER DEP. INITIAL CLIMB <cfl>. SQUAWK <assr>. NEXT FREQ <freq_own>. ATIS <rmk>.
+DCL:OBBI:SID:<callsign> CLRD TO <ades> OFF <drwy>. EXPECT RADAR VECTORS AFTER DEP. INITIAL CLIMB <cfl>. SQUAWK <assr>. NEXT FREQ <freq_own>.
 
 [STATIONS]
 LOGIN:OBBI:BPD:BPD
