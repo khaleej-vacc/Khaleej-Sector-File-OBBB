@@ -20,7 +20,7 @@ ATIS2:"Bahrain Radar"
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBB_E_CTR:400:6
-ATIS2:"Bahrain Radar"
+ATIS2:"Bahrain Radar" - CPDLC [OBBE]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBB_3_CTR:400:6
@@ -28,7 +28,7 @@ ATIS2:"Bahrain Radar"
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBB_N_CTR:400:6
-ATIS2:"Bahrain Radar"
+ATIS2:"Bahrain Radar" - CPDLC [OBBN]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBB_FM_CTR:400:6
@@ -36,7 +36,7 @@ ATIS2:"Bahrain Radar Flow Manager" - DO NOT CONTACT ME!
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBI_APP:150:5
-ATIS2:"Bahrain Approach"
+ATIS2:"Bahrain Approach" - PDC [OBBI]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBI_F_APP:150:5
