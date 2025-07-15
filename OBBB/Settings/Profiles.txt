@@ -1,7 +1,7 @@
 PROFILE
-PROFILE:(INITIALS)_OBS:241:0
+PROFILE:[INITIALS]_OBS:241:0
 ATIS2:Khaleej vACC - Observer
-ATIS3:Covering the Bahrain GMC
+ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBS_APP:150:5
 ATIS2:"Isa-Airbase Approach Radar"
@@ -12,7 +12,7 @@ ATIS2:"Bahrain Tower" - DCL [OBBI]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBI_FM_TWR:50:4
-ATIS2:"Bahrain Tower Planner" - DO NOT CONTACT ME!
+ATIS2:"Bahrain Tower Flow Manager" - DCL [OBBI]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBS_TWR:50:4
@@ -28,15 +28,15 @@ ATIS2:"Bahrain Ground" - DCL [OBBI]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBI_FM_GND:20:3
-ATIS2:"Bahrain Ground" - DO NOT CONTACT ME!
+ATIS2:"Bahrain Ground Flow Manager" - DCL [OBBI]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBI_DEL:20:2
 ATIS2:"Bahrain Delivery" - DCL [OBBI]
-ATIS3:Give us feedback! - vats.im/khatcfdb
-ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
+ATIS3:Request clearance 10 minutes before departure.
+ATIS4:Give us feedback! - vats.im/khatcfdb
 PROFILE:OBBI_FM_DEL:20:2
-ATIS2:"Bahrain Delivery" - DO NOT CONTACT ME!
-ATIS3:Give us feedback! - vats.im/khatcfdb
-ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
+ATIS2:"Bahrain Planner" - DCL [OBBI]
+ATIS3:Request clearance 10 minutes before departure.
+ATIS4:Give us feedback! - vats.im/khatcfdb
 END
