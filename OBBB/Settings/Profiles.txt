@@ -35,7 +35,7 @@ PROFILE:OBBI_DEL:20:2
 ATIS2:"Bahrain Delivery" - DCL [OBBI]
 ATIS3:Request clearance 10 minutes before departure.
 ATIS4:Give us feedback! - vats.im/khatcfdb
-PROFILE:OBBI_FM_DEL:20:2
+PROFILE:OBBI_P_DEL:20:2
 ATIS2:"Bahrain Planner" - DCL [OBBI]
 ATIS3:Request clearance 10 minutes before departure.
 ATIS4:Give us feedback! - vats.im/khatcfdb
