@@ -42,7 +42,7 @@ AG:OBBI_FM_APP Bahrain Approach:127.850:novoice:OBBI_FM_APP
 AG:OBBI_FM_GND Bahrain Ground:121.850:novoice:OBBI_FM_GND
 AG:OBBI_FM_TWR Bahrain Tower:118.500:novoice:OBBI_FM_TWR
 AG:OBBI_GND Bahrain Ground:121.850:novoice:OBBI_GND
-AG:OBBI_PLN_DEL Bahrain Delivery:121.900:novoice:OBBI_PLN_DEL
+AG:OBBI_P_DEL Bahrain Delivery:121.900:novoice:OBBI_P_DEL
 AG:OBBI_TWR Bahrain Tower:118.500:novoice:OBBI_TWR
 AG:OBBS_APP Isa-Airbase Approach Radar:124.950:novoice:OBBS_APP
 AG:OBBS_TWR Isa-Airbase Tower:125.450:novoice:OBBS_TWR
