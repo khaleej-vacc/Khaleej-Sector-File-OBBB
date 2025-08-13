@@ -129,7 +129,7 @@ Color_Active_Text_Map=198,174,58
 Color_AIW_Intrusion=255,152,0
 Color_Arm=97,97,97
 Color_Assumed=132,255,132
-Color_Background=236,231,233
+Color_Background=42,44,44
 Color_Border=51,51,52
 Color_BottomShadow=70,70,70
 Color_CARD_Mark_All=212,128,44
@@ -151,7 +151,7 @@ Color_Datalink_Logged_On
 Color_Field_Highlight=72,72,73
 Color_Flight_Highlight=36,41,45
 Color_Flight_Leg=170,231,197
-Color_Foreground=0,0,0
+Color_Foreground=159,195,194
 Color_FPLSEP_Tool_1=153,217,234
 Color_FPLSEP_Tool_2=255,153,184
 Color_FPLSEP_Tool_3=255,209,143
