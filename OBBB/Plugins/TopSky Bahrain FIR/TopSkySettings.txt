@@ -70,8 +70,11 @@ List_Sector_Concerned=1
 List_Sector_Informed=1
 List_Sector_Redundant=1
 
-WXR_Latitude=52.72099972
-WXR_Longitude=-8.885199722
+WXR_Gain=100
+WXR_ImageSize=512
+WXR_Latitude=50
+WXR_Longitude=29
+WXR_Brightness=50
 
 HTTP_NAT_Tracks_URL=https://www.notams.faa.gov/common/nat.html
 
