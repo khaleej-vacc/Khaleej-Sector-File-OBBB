@@ -4,7 +4,7 @@ ATIS2:Khaleej vACC - Observer
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBB_1_CTR:400:6
-ATIS2:"Bahrain Radar" - CPDLC/PDC [OBBB]
+ATIS2:"Bahrain Radar" - CPDLC/DCL [OBBB]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBB_CH_CTR:400:6
@@ -36,7 +36,7 @@ ATIS2:"Bahrain Radar Flow Manager"
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBI_APP:150:5
-ATIS2:"Bahrain Approach" - PDC [OBBI]
+ATIS2:"Bahrain Approach" - DCL [OBBI]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBI_F_APP:150:5
