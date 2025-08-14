@@ -25,7 +25,7 @@
             },
             {
                "direction": "ODD",
-               "max_fl": 33000,
+               "max_fl": 330,
                "destinations": [
                   "OOMS"
 
@@ -36,7 +36,7 @@
             },
             {
                "direction": "ODD",
-               "max_fl": 25000,
+               "max_fl": 250,
                "destinations": [
                   "OMAA",
                   "OMAD",
@@ -54,7 +54,7 @@
             },
             {
                "direction": "ODD",
-               "max_fl": 23000,
+               "max_fl": 230,
                "destinations": [
                   "OOSH"
 
@@ -65,7 +65,7 @@
             },
             {
                "direction": "ODD",
-               "max_fl": 11000,
+               "max_fl": 110,
                "destinations": [
                   "OTHH",
                   "OTBD"
