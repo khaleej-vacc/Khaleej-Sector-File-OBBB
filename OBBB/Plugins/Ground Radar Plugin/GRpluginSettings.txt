@@ -1,7 +1,7 @@
-// File created for the Arabian vACC - Bahrain FIR (OBBB)
-// Developed and maintained by Chriss Klosowski (1306415)
+// File created for the Khaleej vACC - Bahrain FIR (OBBB)
+// Developed and maintained by Moiz Uddin (1758952)
 //
-// Last Change by Chriss Klosowski
+// Last Change by Moiz Uddin
 //
 // Changelog:
 // 14/04/2024 - Initial Version
@@ -45,8 +45,8 @@ Label=GND:ARR:2:CALLSIGN,0,0:STAND,0,1
 Label=GND:ARR:3:RMK,0,1 
 
 Label=GND:DEP:0:ALRT,0,0:ASSR_E,0,1:COMM,0,1 
-Label=GND:DEP:1:ATYP,0,0:WTC,0,1,0
-Label=GND:DEP:2:CALLSIGN,0,0:DRWY,0,1,1 
+Label=GND:DEP:1:ATYP,0,0:WTC,0,1,0:DRWY,0,1,1
+Label=GND:DEP:2:CALLSIGN,0,0:DEP,0,1 
 Label=GND:DEP:3:RMK,0,1 
 
 Label=TWR:ARR:0:ALRT,0,0:COMM,0,1 
@@ -61,8 +61,8 @@ Label=TWR:DEP:3:RMK,0,1
 
 Label_AFL+VS=0,0,1
 Label_ARWY=0,0,0
-Label_ATYP=0,0,0
-Label_DEP=0,0,0
+Label_ATYP=0,1,1,0
+Label_DEP=0,1,0,0
 Label_DRWY=0,1,0
 Label_RMK=0,1,1
 Label_STAND=0,1,0
@@ -80,7 +80,7 @@ System_State_StartUp=S/U
 System_State_Push=P/S
 System_State_Taxi=T/X
 System_State_LineUp=L/U
-System_State_Depa=TAKE-T/O
+System_State_Depa=T/O
 
 System_RMCA_RWY_Closure=50
 System_RMCA_RWY_Closure_Info=20
