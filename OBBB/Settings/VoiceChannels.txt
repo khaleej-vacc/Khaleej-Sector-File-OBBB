@@ -12,7 +12,7 @@
 ;                                                                                                                         ;
 ;=========================================================================================================================;
 ;                                                                                                                         ;
-;  ALL RIGHTS RESERVED Â© AeroNav Association. NAV-DATA Â© AEROSOFT. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!   ;
+;  ALL RIGHTS RESERVED © AeroNav Association. NAV-DATA © AEROSOFT. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!   ;
 ;                                                                                                                         ;
 ;=========================================================================================================================;
 ;  The Global Nav Generator (GNG) and all it sub-modules where created by the AeroNav Association.                        ;
@@ -35,12 +35,12 @@ AG:OBBB_E_CTR Bahrain Radar:132.850:novoice:OBBB_E_CTR
 AG:OBBB_FM_CTR Bahrain Radar:127.525:novoice:OBBB_FM_CTR
 AG:OBBB_N_CTR Bahrain Radar:126.700:novoice:OBBB_N_CTR
 AG:OBBI_APP Bahrain Approach:127.850:novoice:OBBI_APP
-AG:OBBI_F_APP Bahrain Director:119.100:novoice:OBBI_F_APP
 AG:OBBI_ATIS:127.200:novoice:OBBI_ATIS
 AG:OBBI_DEL Bahrain Delivery:121.900:novoice:OBBI_DEL
 AG:OBBI_FM_APP Bahrain Approach:127.850:novoice:OBBI_FM_APP
 AG:OBBI_FM_GND Bahrain Ground:121.850:novoice:OBBI_FM_GND
 AG:OBBI_FM_TWR Bahrain Tower:118.500:novoice:OBBI_FM_TWR
+AG:OBBI_F_APP Bahrain Director:119.100:novoice:OBBI_F_APP
 AG:OBBI_GND Bahrain Ground:121.850:novoice:OBBI_GND
 AG:OBBI_P_DEL Bahrain Delivery:121.900:novoice:OBBI_P_DEL
 AG:OBBI_TWR Bahrain Tower:118.500:novoice:OBBI_TWR
