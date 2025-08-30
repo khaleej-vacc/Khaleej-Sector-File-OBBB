@@ -85,9 +85,11 @@ LastSession	atis4	Welcome to Bahrain | Visit khaleejvacc.net
 LastSession	range	300
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
-Settings	sector	\OBBB-Developer-2024_20250830141439-241301-0037.sct
+Settings	sector	\OBBB-Developer-2024_20250830201327-241301-0051.sct
 LastSession	callsign	(INITIALS)_OBS
 Plugins	Plugin8	\OBBB\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
 Plugins	Plugin9	\OBBB\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
+Plugins	Plugin10	\OBBB\Plugins\MAESTRO Dark\MAESTRO.dll
+Plugins	Plugin10Display0	Standard ES radar screen
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
