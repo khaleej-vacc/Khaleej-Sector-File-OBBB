@@ -1,0 +1,18 @@
+// File created for the Khaleej vACC - Bahrain FIR (OBBB)
+// Developed and maintained by Moiz Uddin (1758952)
+//
+// Last Change by Moiz Uddin
+//
+// Changelog:
+// 14/04/2024 - Initial Release
+//
+// To be used on the VATSIM Network only
+
+// Bahrain TAR
+RADAR:Bahrain
+POSITIONS:OBBI:OBBB
+LOCATION:N026.16.00.450:E050.38.45.690
+ALTITUDE:62
+MAXANGLE:50
+RANGE:0:80
+CEILING:66000
