@@ -1,0 +1,93 @@
+Settings	SettingsfileSYMBOLOGY	\OBBB\Settings\Symbology.txt
+Settings	SettingsfileVOICE	\OBBB\Settings\Voice.txt
+Settings	SettingsfilePROFILE	\OBBB\Settings\Profiles - ACC.txt
+Settings	SettingsfileTAGS	\OBBB\Settings\Tags.txt
+Settings	SettingsfileSIL	\OBBB\Settings\Lists - ACC.txt
+Settings	SettingsfileSEL	\OBBB\Settings\Lists - ACC.txt
+Settings	SettingsfileDEP	\OBBB\Settings\Lists - ACC.txt
+Settings	SettingsfileARR	\OBBB\Settings\Lists - ACC.txt
+Settings	SettingsfileFP	\OBBB\Settings\Lists - ACC.txt
+Settings	SettingsfilePLUGINS	\OBBB\Settings\Plugins.txt
+Settings	Settingsfile	\OBBB\Settings\General.txt
+Settings	SettingsfileSCREEN	\OBBB\Settings\Screen.txt
+Settings	SettingsfileCONFLICT	\OBBB\Settings\Lists - ACC.txt
+Settings	SettingsfileVCCS	\OBBB\Settings\VCCS.txt
+Settings	SettingsfilePILOTING	\OBBB\Settings\General.txt
+Settings	SettingsfileORIGPLANE	\OBBB\Settings\General.txt
+Settings	SettingsfileSTUP	\OBBB\Settings\General.txt
+Settings	SettingsfileTAXIOUT	\OBBB\Settings\General.txt
+Settings	SettingsfileTAKEOFF	\OBBB\Settings\General.txt
+Settings	SettingsfileADCS	\OBBB\Settings\General.txt
+Settings	SettingsfileTAXIIN	\OBBB\Settings\General.txt
+Settings	alias	\OBBB\Alias\alias.txt
+Settings	AtisFolder	\OBBB\ATIS\atisfiles.txt
+Settings	airlines	\OBBB\ICAO\ICAO_Airlines.txt
+Settings	airports	\OBBB\ICAO\ICAO_Airports.txt
+Settings	aircraft	\OBBB\ICAO\ICAO_Aircraft.txt
+Settings	airportcoords	\OBBB\NavData\icao.txt
+Settings	airways	\OBBB\NavData\airway.txt
+ASRFastKeys	1	\OBBB\ASR\Bahrain FIR.asr
+ASRFastKeys	2	\OBBB\ASR\SMGCS\Bahrain SMGCS.asr
+ASRFastKeys	3	\OBBB\ASR\SMGCS\Isa Airbase SMGCS.asr
+ASRFastKeys	4	\OBBB\ASR\SMGCS\Sakhir Airbase.asr
+RecentFiles	Recent1	\OBBB\ASR\Bahrain FIR.asr
+RecentFiles	Recent2	\OBBB\ASR\SMGCS\Bahrain SMGCS.asr
+RecentFiles	Recent3	\OBBB\ASR\SMGCS\Isa Airbase SMGCS.asr
+RecentFiles	Recent4	\OBBB\ASR\SMGCS\Sakhir Airbase.asr
+TeamSpeakVccs	TsVccsMiniControlX	186
+TeamSpeakVccs	TsVccsMiniControlY	367
+TeamSpeakVccs	Ts3DialogLeft	0
+TeamSpeakVccs	Ts3DialogTop	0
+TeamSpeakVccs	Ts3DialogRight	896
+TeamSpeakVccs	Ts3DialogBottom	561
+Sounds	Sound18	\OBBB\Sounds\startup.wav
+Sounds	Sound0	\OBBB\Sounds\handoff_request.wav
+Sounds	Sound1	\OBBB\Sounds\handoff_accept.wav
+Sounds	Sound2	\OBBB\Sounds\conflict_alert.wav
+Sounds	Sound3	\OBBB\Sounds\radio_message.wav
+Sounds	Sound4	\OBBB\Sounds\private_message.wav
+Sounds	Sound5	\OBBB\Sounds\atc_message.wav
+Sounds	Sound6	\OBBB\Sounds\broadcast_message.wav
+Sounds	Sound7	\OBBB\Sounds\landline_request.wav
+Sounds	Sound8	\OBBB\Sounds\supervisorcall.wav
+Sounds	Sound9	\OBBB\Sounds\connected.wav
+Sounds	Sound10	\OBBB\Sounds\disconnected.wav
+Sounds	Sound11	\OBBB\Sounds\ongoing_request.wav
+Sounds	Sound12	\OBBB\Sounds\ongoing_accepted.wav
+Sounds	Sound13	\OBBB\Sounds\ongoing_refused.wav
+Sounds	Sound14	\OBBB\Sounds\ongoing_manual.wav
+Sounds	Sound15	\OBBB\Sounds\new_atis.wav
+Sounds	Sound16	\OBBB\Sounds\handoff_refused.wav
+Sounds	Sound17	\OBBB\Sounds\pointout.wav
+Plugins	Plugin0	\OBBB\Plugins\Audio for VATSIM\AfvEuroScopeBridge.dll
+Plugins	Plugin1	\OBBB\Plugins\Delivery Helper\DelHel.dll
+Plugins	Plugin1Display0	DelHel
+Plugins	Plugin2	\OBBB\Plugins\Discord Euroscope\DiscordEuroscope.dll
+Plugins	Plugin3	\OBBB\Plugins\Ground Radar Plugin\GRplugin.dll
+Plugins	Plugin3Display0	Ground Radar display
+Plugins	Plugin4	\OBBB\Plugins\TopSky Bahrain FIR\TopSky.dll
+Plugins	Plugin4Display0	Standard ES radar screen
+Plugins	Plugin4Display1	Ground Radar display
+Plugins	Plugin5	\OBBB\Plugins\VACDM\vACDM.dll
+Plugins	Plugin6	\OBBB\Plugins\Virtual Controller Helper\VCH.dll
+Plugins	Plugin7	\OBBB\Plugins\VFPC\VFPC.dll
+Plugins	Plugin7Display0	Ground Radar display
+Plugins	Plugin7Display1	DelHel
+Plugins	Plugin7Display2	Standard ES radar screen
+LastSession	atis_freq4	118000
+LastSession	connecttype	0
+LastSession	facility	0
+LastSession	rating	0
+LastSession	tovatsim	1
+LastSession	atis2	Khaleej vACC - Observer
+LastSession	atis3	Give us feedback! - vats.im/khatcfdb
+LastSession	atis4	Welcome to Bahrain | Visit khaleejvacc.net
+LastSession	range	300
+LastSession	proxyserver	localhost
+LastSession	simdatapublish	0
+Settings	sector	\OBBB-Developer-2024_20250830141439-241301-0037.sct
+LastSession	callsign	(INITIALS)_OBS
+Plugins	Plugin8	\OBBB\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
+Plugins	Plugin9	\OBBB\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
+Settings	AselKey	5111808
+Settings	FreqKey	3604480
