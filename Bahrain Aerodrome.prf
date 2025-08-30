@@ -77,7 +77,7 @@ LastSession	atis4	Welcome to Bahrain | Visit khaleejvacc.net
 LastSession	range	300
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
-Settings	sector	\OBBB-Developer-2024_20250223224520-241301-0008.sct
+Settings	sector	\OBBB-Developer-2024_20250830093621-241301-0030.sct
 Plugins	Plugin8	\OBBB\Plugins\VFPC\VFPC.dll
 Plugins	Plugin8Display0	Ground Radar display
 Plugins	Plugin8Display1	DelHel
