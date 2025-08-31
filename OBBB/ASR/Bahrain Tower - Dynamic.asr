@@ -3,6 +3,8 @@ DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
 SECTORFILE:
 SECTORTITLE:
+Geo:GEO:
+Geo:OBBB Landmark Coastline:
 SHOWC:1
 SHOWSB:0
 BELOW:350
