@@ -1,0 +1,12 @@
+System_Timeline_PixPerMin=20
+
+
+[OBBI]
+System_Version=1
+System_Time_Stable=8
+System_Time_SuperStable=4
+FEEDER:KOBOK:KO:OBBI:KOBOK
+FEEDER:LADNA:LA:OBBI:LADNA
+FEEDER:ORDIG:OR:OBBI:ORDIG
+RUNWAY:OBBI:12L:118:*:*
+RUNWAY:OBBI:30R:118:*:*
