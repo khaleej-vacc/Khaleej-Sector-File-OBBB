@@ -89,3 +89,5 @@ Plugins	Plugin10	\OBBB\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
 Plugins	Plugin5Display0	Standard ES radar screen
 Plugins	Plugin5Display1	Ground Radar display
 Plugins	Plugin9Display2	Standard ES radar screen
+Plugins	Plugin10	\OBBB\Plugins\VATCAN Plugin\VATCANBookings.dll
+Plugins	Plugin10Display0	Standard ES radar screen
