@@ -8,7 +8,7 @@ Settings	SettingsfileDEP	\OBBB\Settings\Lists.txt
 Settings	SettingsfileARR	\OBBB\Settings\Lists.txt
 Settings	SettingsfileFP	\OBBB\Settings\Lists.txt
 Settings	SettingsfilePLUGINS	\OBBB\Settings\Plugins.txt
-Settings	Settingsfile	\OBBB\Settings\General.txt
+Settings	Settingsfile	\OBBB\Settings\GeneralAD.txt
 Settings	SettingsfileSCREEN	\OBBB\Settings\Screen.txt
 Settings	SettingsfileCONFLICT	\OBBB\Settings\Lists.txt
 Settings	SettingsfileVCCS	\OBBB\Settings\VCCS.txt
