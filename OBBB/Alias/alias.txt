@@ -12,7 +12,7 @@
 ;                                                                                                                         ;
 ;=========================================================================================================================;
 ;                                                                                                                         ;
-;  ALL RIGHTS RESERVED © AeroNav Association. NAV-DATA © AEROSOFT. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!   ;
+;  ALL RIGHTS RESERVED ï¿½ AeroNav Association. NAV-DATA ï¿½ AEROSOFT. FILES MUST NOT BE DISTRIBUTED TO NON-VATSIM MEMBERS!   ;
 ;                                                                                                                         ;
 ;=========================================================================================================================;
 ;  The Global Nav Generator (GNG) and all it sub-modules where created by the AeroNav Association.                        ;
@@ -33,10 +33,12 @@
 .cw .msg $aircraft Hello. You will enter my airspace shortly. Please contact me on $freq when $1
 .cp .msg $aircraft Hello. You will enter my airspace shortly. Please contact me on $freq when passing $uc($1).
 .cpl .msg $aircraft Hello. You will enter my airspace shortly. Please contact me on $freq when passing $uc($1) at FL $2.
-.mid .msg $aircraft Hello. You will enter my airspace shortly. Please contact me on $freq when passing MIDSI at FL200.
-.lad .msg $aircraft Hello. You will enter my airspace shortly. Please contact me on $freq when passing LADNA at altitude 9000ft
-.kob .msg $aircraft Hello. You will enter my airspace shortly. Please contact me on $freq when passing KOBOK at altitude 12000ft
-.ord .msg $aircraft Hello. You will enter my airspace shortly. Please contact me on $freq when passing ORDIG at altitude 12000ft, QNH $altim($arr)
+.midsi .msg $aircraft Hello. You will enter my airspace shortly. Reach MIDSI at FL200. Please contact me on $freq 
+.lad30 .msg $aircraft Hello. You will enter my airspace shortly. Reach LADNA at altitude 9000ft. Please contact me on $freq.
+.lad12 .msg $aircraft Hello. You will enter my airspace shortly. Reach LADNA at altitude 3000ft at speed 210 kts. Please contact me on $freq.
+.kobok .msg $aircraft Hello. You will enter my airspace shortly. Reach KOBOK at altitude 12000ft. Please contact me on $freq.
+.ordig .msg $aircraft Hello. You will enter my airspace shortly. Reach ORDIG at altitude 12000ft. Please contact me on $freq.
+.elidu .msg $aircraft Hello. You will enter my airspace shortly. Reach ELIDU at altitude FL200. Please contact me on $freq.
 .cnow .msg $aircraft Hello. Please contact me on $freq as soon as possible.
 
 ;*** 03 Initial Contact ***
