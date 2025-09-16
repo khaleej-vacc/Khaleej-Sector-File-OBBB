@@ -1,0 +1,43 @@
+// File created for the Khaleej vACC - Bahrain FIR (OBBB)
+// Developed and maintained by Moiz Uddin (1758952)
+//
+// Last Change by Moiz Uddin
+//
+// Changelog:
+// 14/04/2024 - Initial Release
+//
+// To be used on the VATSIM Network only
+
+// 4401 to 4477, 2201 to 2277: Bahrain Primary
+// 1201 to 1277, 2701 to 2777: Bahrain Domestic
+
+// Bahrain Departure Squawk
+RANGE:4401:4477
+ADEP:OBBI:OB
+IFR
+
+// Bahrain Departure Squawk
+RANGE:2201:2277
+ADEP:OBBI:OB
+IFR
+
+// Bahrain Domestic Squawk
+RANGE:3701:3777
+ADEP:OBBI:OB
+ADES:OB
+IFR
+
+// Bahrain Domestic Squawk
+RANGE:3701:3777
+ADEP:OBBI:OB
+ADES:OB
+
+// Area Control Center Arrivals
+RANGE:1201:1277
+NOTADEP:OB
+ADES:OB
+
+// Area Control Center Transit
+RANGE:2201:2277
+NOTADEP:OB
+NOTADES:OB

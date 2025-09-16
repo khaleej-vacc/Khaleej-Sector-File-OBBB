@@ -1,0 +1,12 @@
+// File created for the Khaleej vACC - Bahrain FIR (OBBB)
+// Developed and maintained by Moiz Uddin (1758952)
+//
+// Last Change by Moiz Uddin
+//
+// Changelog:
+// 14/04/2024 - Initial Release
+//
+// To be used on the VATSIM Network only
+
+FINALAPP:OBBI:12L
+FINALAPP:OBBI:30R

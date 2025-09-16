@@ -1,0 +1,65 @@
+// File created for the Khaleej vACC - Bahrain FIR (OBBB)
+// Developed and maintained by Moiz Uddin (1758952)
+//
+// Last Change by Moiz Uddin
+//
+// Changelog:
+// 14/04/2024 - Initial Release
+//
+// To be used on the VATSIM Network only
+
+//Coasting track symbol
+SYMBOL:COASTED
+MOVETO:-6:-6
+LINETO:-6:6
+LINETO:6:6
+LINETO:6:-7
+
+//Hystory dot
+SYMBOL:HISTORY
+FILLARC:0:0:1:0:0
+
+//Radar position symbol for PSR tracks
+SYMBOL:PRIMARY
+FILLARC:0:0:5:0:0
+
+//Radar position symbol for diverging PSR tracks
+SYMBOL:PRIMARY_DIV
+FILLARC:0:0:5:0:0
+ARC:0:0:10:0:0
+
+//Radar position symbol for SSR(A) tracks
+SYMBOL:NODAPS
+FILLARC:0:0:3:0:0
+ARC:0:0:5:0:0
+
+//Radar position symbol for diverging SSR(A) tracks
+SYMBOL:NODAPS_DIV
+FILLARC:0:0:3:0:0
+ARC:0:0:5:0:0
+ARC:0:0:10:0:0
+
+
+//Radar position symbol for SSR(A) tracks
+SYMBOL:DAPS
+FILLARC:0:0:3:0:0
+ARC:0:0:5:0:0
+ARC:0:0:6:0:0
+
+SYMBOL:DAPS_DIV
+FILLARC:0:0:3:0:0
+ARC:0:0:5:0:0
+ARC:0:0:6:0:0
+ARC:0:0:10:0:0
+
+//Radar position symbol for ADSB tracks
+SYMBOL:ADSB
+FILLARC:0:0:3:0:0
+ARC:0:0:5:0:0
+ARC:0:0:6:0:0
+
+SYMBOL:ADSB_DIV
+FILLARC:0:0:3:0:0
+ARC:0:0:5:0:0
+ARC:0:0:6:0:0
+ARC:0:0:10:0:0
