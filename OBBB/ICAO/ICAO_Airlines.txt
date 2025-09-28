@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2413/1  ++  Valid period: 26/DEC/2024 - 22/JAN/2025  ++  File-Publisher: Khaleej vACC - Bahrain FIR - OBBB       ;
+;  AIRAC 2413/1  ++  File-Publisher: Khaleej vACC - Bahrain FIR - OBBB                                                    ;
 ;=========================================================================================================================;
 AAB	ABELAG AVIATION	ABG	BELGIUM
 AAC	ARMY AIR CORPS	ARMYAIR	UNITED KINGDOM

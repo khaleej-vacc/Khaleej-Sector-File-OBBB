@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2413/1  ++  Valid period: 26/DEC/2024 - 22/JAN/2025  ++  File-Publisher: Khaleej vACC - Bahrain FIR - OBBB       ;
+;  AIRAC 2413/1  ++  File-Publisher: Khaleej vACC - Bahrain FIR - OBBB                                                    ;
 ;=========================================================================================================================;
 ;*** 01 Logging On ***
 .on /Asalam Alaikum, $radioname is online.
@@ -34,11 +34,11 @@
 .cp .msg $aircraft Hello. You will enter my airspace shortly. Please contact me on $freq when passing $uc($1).
 .cpl .msg $aircraft Hello. You will enter my airspace shortly. Please contact me on $freq when passing $uc($1) at FL $2.
 .midsi .msg $aircraft Hello. You will enter my airspace shortly. Reach MIDSI at FL200. Please contact me on $freq 
-.lad30 .msg $aircraft Hello. You will enter my airspace shortly. Reach LADNA at altitude 9000ft. Please contact me on $freq.
-.lad12 .msg $aircraft Hello. You will enter my airspace shortly. Reach LADNA at altitude 3000ft at speed 210 kts. Please contact me on $freq.
-.kobok .msg $aircraft Hello. You will enter my airspace shortly. Reach KOBOK at altitude 12000ft. Please contact me on $freq.
-.ordig .msg $aircraft Hello. You will enter my airspace shortly. Reach ORDIG at altitude 12000ft. Please contact me on $freq.
-.elidu .msg $aircraft Hello. You will enter my airspace shortly. Reach ELIDU at altitude FL200. Please contact me on $freq.
+.lad30 .msg $aircraft Hello. You will enter my airspace shortly. Please reach LADNA at altitude 9000ft.
+.lad12 .msg $aircraft Hello. You will enter my airspace shortly. Please reach LADNA at altitude 3000ft at speed 210 kts.
+.kobok .msg $aircraft Hello. You will enter my airspace shortly. Please reach KOBOK at altitude 12000ft.
+.ordig .msg $aircraft Hello. You will enter my airspace shortly. Please reach ORDIG at altitude 12000ft. 
+.elidu .msg $aircraft Hello. You will enter my airspace shortly. Please reach ELIDU at altitude FL200.
 .cnow .msg $aircraft Hello. Please contact me on $freq as soon as possible.
 
 ;*** 03 Initial Contact ***

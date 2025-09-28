@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2413/1  ++  Valid period: 26/DEC/2024 - 22/JAN/2025  ++  File-Publisher: Khaleej vACC - Bahrain FIR - OBBB       ;
+;  AIRAC 2413/1  ++  File-Publisher: Khaleej vACC - Bahrain FIR - OBBB                                                    ;
 ;=========================================================================================================================;
 00AA	38.7040220	-101.4739110	LEOTI/AERO B RANCH
 00AN	59.0934720	-156.4558330	KING SALAMON/KATMAI LODGE
@@ -19500,6 +19500,7 @@ UTAA	37.9865830	58.3584310	ASHGABAT
 UTAE	37.8222220	65.1352780	KERKI
 UTAK	40.0632970	53.0073390	TURKMENBASHI
 UTAM	37.6216970	61.8963860	MARY
+UTAN	39.6805556	54.2047222	Balkanabat
 UTAT	41.7598970	59.8343940	DASHOGUZ
 UTAV	38.9307420	63.5638640	TURKMENABAT
 UTDD	38.5436110	68.8247220	DUSHANBE
@@ -19617,7 +19618,6 @@ VAKE	23.1122000	70.1005690	KANDLA
 VAKP	16.6663720	74.2904890	KOLHAPUR
 VAKS	21.3149890	70.2691390	KESHOD
 VAMA	22.8352640	69.7649390	MUNDRA
-VANM	18.9943833	73.0702639	NAVI MUMBAI
 VANP	21.0917060	79.0482170	NAGPUR/DR BABASAHEB AMBEDKAR I
 VAOZ	20.1200000	73.9133000	OZAR
 VAPO	18.5825000	73.9202780	PUNE

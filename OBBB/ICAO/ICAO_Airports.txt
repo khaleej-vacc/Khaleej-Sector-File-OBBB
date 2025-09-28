@@ -23,7 +23,7 @@
 ;  only. The data must not be copied, photocopied, translated, reverse engineered, decompiled or reduced to any           ;
 ;  electronic medium or machine legible form, neither completely nor in part.                                             ;
 ;=========================================================================================================================;
-;  AIRAC 2413/1  ++  Valid period: 26/DEC/2024 - 22/JAN/2025  ++  File-Publisher: Khaleej vACC - Bahrain FIR - OBBB       ;
+;  AIRAC 2413/1  ++  File-Publisher: Khaleej vACC - Bahrain FIR - OBBB                                                    ;
 ;=========================================================================================================================;
 00AA	LEOTI/AERO B RANCH	United States
 00AN	KING SALAMON/KATMAI LODGE	Alaska
@@ -19500,6 +19500,7 @@ UTAA	ASHGABAT	Uzbekistan, Turkmenistan and Tadjikistan
 UTAE	KERKI	Uzbekistan, Turkmenistan and Tadjikistan
 UTAK	TURKMENBASHI	Uzbekistan, Turkmenistan and Tadjikistan
 UTAM	MARY	Uzbekistan, Turkmenistan and Tadjikistan
+UTAN	Balkanabat	Uzbekistan, Turkmenistan and Tadjikistan
 UTAT	DASHOGUZ	Uzbekistan, Turkmenistan and Tadjikistan
 UTAV	TURKMENABAT	Uzbekistan, Turkmenistan and Tadjikistan
 UTDD	DUSHANBE	Uzbekistan, Turkmenistan and Tadjikistan
@@ -19617,7 +19618,6 @@ VAKE	KANDLA	India
 VAKP	KOLHAPUR	India
 VAKS	KESHOD	India
 VAMA	MUNDRA	India
-VANM	NAVI MUMBAI	India
 VANP	NAGPUR/DR BABASAHEB AMBEDKAR I	India
 VAOZ	OZAR	India
 VAPO	PUNE	India
