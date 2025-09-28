@@ -85,7 +85,7 @@ LastSession	atis4	Welcome to Bahrain | Visit khaleejvacc.net
 LastSession	range	300
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
-Settings	sector	\OBBB-Install-Package_20250913082427-241301-0010.sct
+Settings	sector	\OBBB-Install-Package_20250928105415-241301-0012.sct
 LastSession	callsign	(INITIALS)_OBS
 Plugins	Plugin8	\OBBB\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
 Plugins	Plugin9	\OBBB\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
