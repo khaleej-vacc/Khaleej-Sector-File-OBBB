@@ -7,7 +7,7 @@ PROFILE:OBBI_TWR:50:4
 ATIS2:"Bahrain Tower" - DCL [OBBI]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
-PROFILE:OBBI_FM_TWR:50:4
+PROFILE:OBBI_AIR_FMP:50:4
 ATIS2:"Bahrain Tower Flow Manager"
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
@@ -23,7 +23,7 @@ PROFILE:OBBI_GND:20:3
 ATIS2:"Bahrain Ground" - DCL [OBBI]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
-PROFILE:OBBI_FM_GND:20:3
+PROFILE:OBBI_GMC_FMP:20:3
 ATIS2:"Bahrain Ground Flow Manager"
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
