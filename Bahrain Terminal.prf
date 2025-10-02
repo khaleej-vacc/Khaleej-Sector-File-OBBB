@@ -8,17 +8,17 @@ Settings	SettingsfileDEP	\OBBB\Settings\Lists - ACC.txt
 Settings	SettingsfileARR	\OBBB\Settings\Lists - ACC.txt
 Settings	SettingsfileFP	\OBBB\Settings\Lists - ACC.txt
 Settings	SettingsfilePLUGINS	\OBBB\Settings\Plugins.txt
-Settings	Settingsfile	\OBBB\Settings\GeneralTMA.txt
+Settings	Settingsfile	\OBBB\Settings\General\TMA.txt
 Settings	SettingsfileSCREEN	\OBBB\Settings\Screen.txt
 Settings	SettingsfileCONFLICT	\OBBB\Settings\Lists - ACC.txt
 Settings	SettingsfileVCCS	\OBBB\Settings\VCCS.txt
-Settings	SettingsfilePILOTING	\OBBB\Settings\General.txt
-Settings	SettingsfileORIGPLANE	\OBBB\Settings\General.txt
-Settings	SettingsfileSTUP	\OBBB\Settings\General.txt
-Settings	SettingsfileTAXIOUT	\OBBB\Settings\General.txt
-Settings	SettingsfileTAKEOFF	\OBBB\Settings\General.txt
-Settings	SettingsfileADCS	\OBBB\Settings\General.txt
-Settings	SettingsfileTAXIIN	\OBBB\Settings\General.txt
+Settings	SettingsfilePILOTING	\OBBB\Settings\General\TMA.txt
+Settings	SettingsfileORIGPLANE	\OBBB\Settings\General\TMA.txt
+Settings	SettingsfileSTUP	\OBBB\Settings\General\TMA.txt
+Settings	SettingsfileTAXIOUT	\OBBB\Settings\General\TMA.txt
+Settings	SettingsfileTAKEOFF	\OBBB\Settings\General\TMA.txt
+Settings	SettingsfileADCS	\OBBB\Settings\General\TMA.txt
+Settings	SettingsfileTAXIIN	\OBBB\Settings\General\TMA.txt
 Settings	alias	\OBBB\Alias\alias.txt
 Settings	AtisFolder	\OBBB\ATIS\atisfiles.txt
 Settings	airlines	\OBBB\ICAO\ICAO_Airlines.txt
