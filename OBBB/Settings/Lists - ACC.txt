@@ -76,7 +76,7 @@ m_Column:FR:3:1:63:0:0:1::::0:0.0
 m_Column:ROUTE:18:1:10019:7:141:1:TopSky plugin::TopSky plugin:0:0.0
 m_Column:RWY:3:1:10009:19:64:1:TopSky plugin::TopSky plugin:0:0.0
 m_Column:CFL:4:1:10002:100:12:1:TopSky plugin:Initial Climb:TopSky plugin:1:0.0
-m_Column:ASSR:5:1:10042:62:62:1:TopSky plugin:TopSky plugin:TopSky plugin:1:0.0
+m_Column:ASSR:5:1:643:940:62:1:vSID:vSID:TopSky plugin:1:0.0
 m_Column:FPC:4:1:1:100:0:1:VFPC:VFPC::0:0.0
 m_Column:DCL:4:1:10128:122:0:1:TopSky plugin:TopSky plugin::0:0.0
 m_Column:E:4:1:10046:27:0:1:TopSky plugin:::1:0.0
