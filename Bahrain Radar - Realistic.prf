@@ -97,5 +97,9 @@ Plugins	Plugin12	\OBBB\Plugins\CCAMS\CCAMS.dll
 Plugins	Plugin12Display0	Standard ES radar screen
 Plugins	Plugin12Display1	DelHel
 Plugins	Plugin12Display2	Ground Radar display
+Plugins	Plugin13	\OBBB\Plugins\vSID\vSID.dll
+Plugins	Plugin13Display0	DelHel
+Plugins	Plugin13Display1	Ground Radar display
+Plugins	Plugin13Display2	Standard ES radar screen
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
