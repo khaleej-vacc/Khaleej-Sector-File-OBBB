@@ -11,20 +11,19 @@
 				"1": {
 					"1": {
 						"rwy": "12L",
-						"route": {"deny": {"1": "KINID"}},
 						"wpt": "XXX",
 						"initial": 4000,
 						"prio": 1
 					}
 				}
             },
-            "BHR120": {
+            "BHR030": {
 				"1": {
 					"1": {
 						"rwy": "12L",
-						"route": {"allow": {"1": "KINID"}},
+						"engineType": "PT",
 						"wpt": "XXX",
-						"initial": 4000,
+						"initial": 3000,
 						"prio": 1
 					}
 				}
@@ -47,6 +46,17 @@
 						"route": {"allow": {"1": "NARMI"}},
 						"wpt": "XXX",
 						"initial": 4000,
+						"prio": 1
+					}
+				}
+            },
+            "BHR030": {
+				"1": {
+					"1": {
+						"rwy": "30R",
+						"engineType": "PT",
+						"wpt": "XXX",
+						"initial": 3000,
 						"prio": 1
 					}
 				}
