@@ -4,7 +4,7 @@
         "runways": "30L,12R,12L,30R",
         "transAlt": 13000,
         "maxInitialClimb": 4000,
-		"intersections": {"30R": "A9,A8,A7,A5", "12L": "A1,A2,A3"}
+		"intersections": {"30R": "A9,A8,A7,A5", "12L": "A1,A2,A3"},
         "appSI": "BAF, BA, BBCL, BBCH, BB1",
         "enableRVSids": true,
         "sids": {
@@ -65,4 +65,5 @@
         }
     }
 }
+
 
