@@ -1,5 +1,5 @@
 [DCL]
-DCL:OBBI:SID:<callsign> CLRD TO <ades> OFF <drwy>. AFTER DEPARTURE FLY HDG <ahdg>. INITIAL CLIMB <cfl>. SQUAWK <assr>. NEXT FREQ <freq_own>.
+DCL:OBBI:SID:CLRD TO <ades> OFF <drwy>. AFTER DEPARTURE FLY HDG <ahdg>. INITIAL CLIMB <cfl>. SQUAWK <assr>. NEXT FREQ <freq_own>.
 
 [STATIONS]
 LOGIN:OBBI:BPD:BPD
