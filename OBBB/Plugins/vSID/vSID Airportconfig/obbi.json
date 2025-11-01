@@ -55,6 +55,7 @@
 				"1": {
 					"1": {
 						"rwy": "30R",
+						"route": {"deny": {"1": "NARMI"}},
 						"engineType": "PT",
 						"wpt": "XXX",
 						"initial": 3000,
@@ -65,5 +66,6 @@
         }
     }
 }
+
 
 
