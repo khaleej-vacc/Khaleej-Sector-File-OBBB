@@ -120,7 +120,8 @@ System_CMAC_NoContact_Distance_Info=3.0
 AppPath=OBBI:30R:N026.15.55.160:E050.38.44.830:300:L:8:3.0
 AppPath=OBBI:12L:N026.16.42.070:E050.37.22.580:120:R:8:3.0
 
-
+Window_WindRose=12L,2
+Window_WindRose=30R,2
 Window_APP_Scale=15
 Window_APP_Extensions=0
 Window_APP_AltFilter=4500
