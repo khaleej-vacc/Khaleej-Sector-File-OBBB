@@ -87,15 +87,14 @@ LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 Settings	sector	\OBBB-Developer-2024_20251014052331-251002-0019.sct
 LastSession	callsign	(INITIALS)_OBS
-Plugins	Plugin8	\OBBB\Plugins\Initial Climb Plugin\InitialClimbPlugin.dll
-Plugins	Plugin9	\OBBB\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
-Plugins	Plugin10	\OBBB\Plugins\MAESTRO Dark\MAESTRO.dll
+Plugins	Plugin8	\OBBB\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
+Plugins	Plugin9	\OBBB\Plugins\MAESTRO Dark\MAESTRO.dll
+Plugins	Plugin10	\OBBB\Plugins\VATCAN Plugin\VATCANBookings.dll
 Plugins	Plugin10Display0	Standard ES radar screen
-Plugins	Plugin11	\OBBB\Plugins\VATCAN Plugin\VATCANBookings.dll
-Plugins	Plugin11Display0	Standard ES radar screen
-Plugins	Plugin12	\OBBB\Plugins\vSID\vSID.dll
-Plugins	Plugin12Display0	DelHel
-Plugins	Plugin12Display1	Ground Radar display
-Plugins	Plugin12Display2	Standard ES radar screen
+Plugins	Plugin11	\OBBB\Plugins\vSID\vSID.dll
+Plugins	Plugin11Display0	DelHel
 Settings	AselKey	5111808
 Settings	FreqKey	3604480
+Plugins	Plugin9Display0	Standard ES radar screen
+Plugins	Plugin11Display1	Ground Radar display
+Plugins	Plugin11Display2	Standard ES radar screen
