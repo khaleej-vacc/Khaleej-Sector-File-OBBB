@@ -26,10 +26,14 @@ Settings	airports	\OBBB\ICAO\ICAO_Airports.txt
 Settings	aircraft	\OBBB\ICAO\ICAO_Aircraft.txt
 Settings	airportcoords	\OBBB\NavData\icao.txt
 Settings	airways	\OBBB\NavData\airway.txt
-ASRFastKeys	1	\OBBB\ASR\SMGCS\Bahrain SMGCS.asr
-ASRFastKeys	2	\OBBB\ASR\Bahrain Tower - Dynamic.asr
-RecentFiles	Recent1	\OBBB\ASR\SMGCS\Bahrain SMGCS.asr
-RecentFiles	Recent2	\OBBB\ASR\Bahrain Tower - Dynamic.asr
+ASRFastKeys	1	\OBBB\ASR\Bahrain Terminal.asr
+ASRFastKeys	2	\OBBB\ASR\SMGCS\Bahrain SMGCS.asr
+ASRFastKeys	3	\OBBB\ASR\SMGCS\Isa Airbase SMGCS.asr
+ASRFastKeys	4	\OBBB\ASR\SMGCS\Sakhir Airbase.asr
+RecentFiles	Recent1	\OBBB\ASR\Bahrain Terminal.asr
+RecentFiles	Recent2	\OBBB\ASR\SMGCS\Bahrain SMGCS.asr
+RecentFiles	Recent3	\OBBB\ASR\SMGCS\Isa Airbase SMGCS.asr
+RecentFiles	Recent4	\OBBB\ASR\SMGCS\Sakhir Airbase.asr
 TeamSpeakVccs	TsVccsMiniControlX	186
 TeamSpeakVccs	TsVccsMiniControlY	367
 TeamSpeakVccs	Ts3DialogLeft	0
