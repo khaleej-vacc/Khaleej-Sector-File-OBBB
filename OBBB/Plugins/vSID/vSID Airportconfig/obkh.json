@@ -1,0 +1,15 @@
+{
+    "OBKH": {
+        "elevation": 76,
+        "runways": "35,17",
+        "transAlt": 13000,
+        "maxInitialClimb": 4000,
+        "appSI": "BSA, BAF, BA, BBCL, BBCH, BB1",
+        "enableRVSids": true,
+		"sids": {
+        }
+    }
+}
+
+
+
