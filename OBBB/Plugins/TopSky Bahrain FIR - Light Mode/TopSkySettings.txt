@@ -240,3 +240,8 @@ Label_Alt_Digits=2
 
 Label_COP_MaxChars=3
 Label_FCOP_MaxChars=3
+
+List_TfcMgmt1_ADES=OBBI
+List_TfcMgmt1_FPstate=3
+List_TfcMgmt_MaxTime=60
+List_TfcMgmt_MinState=1
