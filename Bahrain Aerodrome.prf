@@ -69,8 +69,8 @@ Plugins	Plugin4	\OBBB\Plugins\TopSky Bahrain FIR\TopSky.dll
 Plugins	Plugin5	\OBBB\Plugins\TopSky Aerodrome\TopSky.dll
 Plugins	Plugin5Display0	Standard ES radar screen
 Plugins	Plugin5Display1	Ground Radar display
-Plugins	Plugin6	\OBBB\Plugins\VACDM\vACDM.dll
-Plugins	Plugin7	\OBBB\Plugins\Virtual Controller Helper\VCH.dll
+Plugins	Plugin6	\OBBB\Plugins\Virtual Controller Helper\VCH.dll
+Plugins	Plugin7	\OBBB\Plugins\VFPC\VFPC.dll
 LastSession	atis_freq4	118000
 LastSession	connecttype	0
 LastSession	callsign	(INITIALS)_OBS
@@ -84,18 +84,20 @@ LastSession	range	300
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 Settings	sector	\OBBB-Install-Package_20260121101100-251301-0007.sct
-Plugins	Plugin8	\OBBB\Plugins\VFPC\VFPC.dll
+Plugins	Plugin8	\OBBB\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
 Plugins	Plugin8Display0	Ground Radar display
 Plugins	Plugin8Display1	DelHel
 Plugins	Plugin8Display2	Standard ES radar screen
-Plugins	Plugin9	\OBBB\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
-Plugins	Plugin9Display0	Ground Radar display
-Plugins	Plugin9Display1	DelHel
-Plugins	Plugin9Display2	Standard ES radar screen
-Plugins	Plugin10	\OBBB\Plugins\VATCAN Plugin\VATCANBookings.dll
-Plugins	Plugin10Display0	Standard ES radar screen
-Plugins	Plugin11	\OBBB\Plugins\vSID\vSID.dll
+Plugins	Plugin9	\OBBB\Plugins\VATCAN Plugin\VATCANBookings.dll
+Plugins	Plugin9Display0	Standard ES radar screen
+Plugins	Plugin10	\OBBB\Plugins\vSID\vSID.dll
+Plugins	Plugin10Display0	DelHel
+Plugins	Plugin11	\OBBB\Plugins\CDM\CDM.dll
+Plugins	Plugin7Display0	Ground Radar display
+Plugins	Plugin7Display1	DelHel
+Plugins	Plugin7Display2	Standard ES radar screen
+Plugins	Plugin10Display1	Ground Radar display
+Plugins	Plugin10Display2	Standard ES radar screen
 Plugins	Plugin11Display0	DelHel
 Plugins	Plugin11Display1	Ground Radar display
 Plugins	Plugin11Display2	Standard ES radar screen
-Plugins	Plugin12	\OBBB\Plugins\CDM\CDM.dll
