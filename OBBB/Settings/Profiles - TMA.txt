@@ -4,7 +4,7 @@ ATIS2:Khaleej vACC - Observer
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBI_APP:150:5
-ATIS2:"Bahrain Approach" - DCL [OBBI]
+ATIS2:"Bahrain Approach" - DCL [OBBI] | Submit TOBT @ vats.im/vdgs
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBI_F_APP:150:5
