@@ -61,7 +61,6 @@ m_LineNumber:0
 m_Resizable:1
 m_OrderingColumn:20
 m_HeaderOnly:0
-m_Column:CTOT:4:1:5001:0:0:0:VATCAN Bookings:::0:0.0
 m_Column:REQ:4:1:546:548:548:1:VCH:VCH:VCH:0:0.0
 m_Column:PRT:3:1:544:346:0:0:VCH:VCH::0:0.0
 m_Column:POS:4:1:1:0:0:1:Ground Radar plugin:::0:0.0
@@ -132,6 +131,7 @@ m_Column:C/S:7:0:85:0:36:1::::9:0.0
 m_Column:START:6:1:86:0:36:1::::9:0.0
 m_Column:END:6:1:87:0:36:1::::9:0.0
 END
+
 
 
 
