@@ -1,0 +1,74 @@
+# yaml-language-server: $schema=./stars.schema.yaml
+
+stars:
+  - runway: 30R
+    name: ORDIG1
+    waypoints:
+      - { id: ORDIG, typicalAltitude: 12000, typicalSpeed: 250 }
+      - { id: LOVAK, typicalAltitude: 8000, typicalSpeed: 230 }
+      - { id: OBSAS, typicalAltitude: 6000, typicalSpeed: 230 }
+      - { id: RIGAG, typicalAltitude: 5500, typicalSpeed: 230 }
+      - { id: NAGAT, typicalAltitude: 3500, typicalSpeed: 210 }
+      - { id: OBBI, typicalAltitude: 8 }
+
+  - runway: 30R
+    name: KOBOK1
+    waypoints:
+      - { id: KOBOK, typicalAltitude: 12000, typicalSpeed: 250 }
+      - { id: ELELO, typicalAltitude: 7000, typicalSpeed: 230 }
+      - { id: OBSAS, typicalAltitude: 5000, typicalSpeed: 230 }
+      - { id: RIGAG, typicalAltitude: 5000, typicalSpeed: 230 }
+      - { id: ALRAS, typicalAltitude: 3500, typicalSpeed: 210 }
+      - { id: OBBI, typicalAltitude: 8 }
+
+  - runway: 30R
+    name: LADNA1
+    waypoints:
+      - { id: LADNA, typicalAltitude: 9000, typicalSpeed: 250 }
+      - { id: ELELO, typicalAltitude: 8000, typicalSpeed: 230 }
+      - { id: OBSAS, typicalAltitude: 6000, typicalSpeed: 230 }
+      - { id: RIGAG, typicalAltitude: 5500, typicalSpeed: 230 }
+      - { id: NAGAT, typicalAltitude: 3000, typicalSpeed: 210 }
+      - { id: OBBI, typicalAltitude: 8 }
+      
+  - runway: 30R
+    name: TULUB
+    waypoints:
+      - { id: TULUB, typicalAltitude: 12000, typicalSpeed: 210 }
+      - { id: OBBI, typicalAltitude: 8 }
+
+  - runway: 12L
+    name: ORDIG1
+    waypoints:
+      - { id: ORDIG, typicalAltitude: 12000, typicalSpeed: 250 }
+      - { id: LOVAK, typicalAltitude: 11000, typicalSpeed: 230 }
+      - { id: OBSAS, typicalAltitude: 5000, typicalSpeed: 230 }
+      - { id: RIGAG, typicalAltitude: 5000, typicalSpeed: 230 }
+      - { id: ALRAS, typicalAltitude: 3500, typicalSpeed: 210 }
+      - { id: OBBI, typicalAltitude: 8 }
+
+  - runway: 12L
+    name: KOBOK1
+    waypoints:
+      - { id: KOBOK, typicalAltitude: 12000, typicalSpeed: 250 }
+      - { id: ELELO, typicalAltitude: 7000, typicalSpeed: 230 }
+      - { id: OBSAS, typicalAltitude: 5000, typicalSpeed: 230 }
+      - { id: RIGAG, typicalAltitude: 5000, typicalSpeed: 230 }
+      - { id: ALRAS, typicalAltitude: 3500, typicalSpeed: 210 }
+      - { id: OBBI, typicalAltitude: 8 }
+
+  - runway: 12L
+    name: LADNA1
+    waypoints:
+      - { id: LADNA, typicalAltitude: 9000, typicalSpeed: 250 }
+      - { id: ELELO, typicalAltitude: 7000, typicalSpeed: 230 }
+      - { id: OBSAS, typicalAltitude: 5000, typicalSpeed: 230 }
+      - { id: RIGAG, typicalAltitude: 5000, typicalSpeed: 230 }
+      - { id: ALRAS, typicalAltitude: 3000, typicalSpeed: 210 }
+      - { id: OBBI, typicalAltitude: 8 }
+      
+  - runway: 12L
+    name: TULUB
+    waypoints:
+      - { id: TULUB, typicalAltitude: 12000, typicalSpeed: 210 }
+      - { id: OBBI, typicalAltitude: 8 }
