@@ -101,3 +101,7 @@ Plugins	Plugin10Display2	Standard ES radar screen
 Plugins	Plugin11Display0	DelHel
 Plugins	Plugin11Display1	Ground Radar display
 Plugins	Plugin11Display2	Standard ES radar screen
+Plugins	Plugin12	\OBBB\Plugins\AMAN\Aman.dll
+Plugins	Plugin12Display0	DelHel
+Plugins	Plugin12Display1	Standard ES radar screen
+Plugins	Plugin12Display2	Ground Radar display
