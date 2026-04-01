@@ -60,17 +60,13 @@ Sounds	Sound15	\OBBB\Sounds\new_atis.wav
 Sounds	Sound16	\OBBB\Sounds\handoff_refused.wav
 Sounds	Sound17	\OBBB\Sounds\pointout.wav
 Plugins	Plugin0	\OBBB\Plugins\Audio for VATSIM\AfvEuroScopeBridge.dll
-Plugins	Plugin1	\OBBB\Plugins\Delivery Helper\DelHel.dll
-Plugins	Plugin1Display0	DelHel
-Plugins	Plugin2	\OBBB\Plugins\Discord Euroscope\DiscordEuroscope.dll
-Plugins	Plugin3	\OBBB\Plugins\Ground Radar Plugin\GRplugin.dll
-Plugins	Plugin3Display0	Ground Radar display
-Plugins	Plugin4	\OBBB\Plugins\TopSky Bahrain FIR\TopSky.dll
-Plugins	Plugin5	\OBBB\Plugins\TopSky Aerodrome\TopSky.dll
-Plugins	Plugin5Display0	Standard ES radar screen
-Plugins	Plugin5Display1	Ground Radar display
-Plugins	Plugin6	\OBBB\Plugins\Virtual Controller Helper\VCH.dll
-Plugins	Plugin7	\OBBB\Plugins\VFPC\VFPC.dll
+Plugins	Plugin1	\OBBB\Plugins\Discord Euroscope\DiscordEuroscope.dll
+Plugins	Plugin2	\OBBB\Plugins\Ground Radar Plugin\GRplugin.dll
+Plugins	Plugin3	\OBBB\Plugins\TopSky Bahrain FIR\TopSky.dll
+Plugins	Plugin4	\OBBB\Plugins\TopSky Aerodrome\TopSky.dll
+Plugins	Plugin5	\OBBB\Plugins\Virtual Controller Helper\VCH.dll
+Plugins	Plugin6	\OBBB\Plugins\VFPC\VFPC.dll
+Plugins	Plugin7	\OBBB\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
 LastSession	atis_freq4	118000
 LastSession	connecttype	0
 LastSession	callsign	(INITIALS)_OBS
@@ -84,24 +80,26 @@ LastSession	range	300
 LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 Settings	sector	\OBBB-Install-Package_20260121101100-251301-0007.sct
-Plugins	Plugin8	\OBBB\Plugins\PushbackFlorian_v1.1.1\PushbackFlorian.dll
-Plugins	Plugin8Display0	Ground Radar display
-Plugins	Plugin8Display1	DelHel
-Plugins	Plugin8Display2	Standard ES radar screen
-Plugins	Plugin9	\OBBB\Plugins\VATCAN Plugin\VATCANBookings.dll
-Plugins	Plugin9Display0	Standard ES radar screen
-Plugins	Plugin10	\OBBB\Plugins\vSID\vSID.dll
+Plugins	Plugin8	\OBBB\Plugins\VATCAN Plugin\VATCANBookings.dll
+Plugins	Plugin8Display0	Standard ES radar screen
+Plugins	Plugin9	\OBBB\Plugins\vSID\vSID.dll
+Plugins	Plugin9Display0	DelHel
+Plugins	Plugin10	\OBBB\Plugins\CDM\CDM.dll
 Plugins	Plugin10Display0	DelHel
-Plugins	Plugin11	\OBBB\Plugins\CDM\CDM.dll
+Plugins	Plugin11	\OBBB\Plugins\AMAN\Aman.dll
 Plugins	Plugin7Display0	Ground Radar display
 Plugins	Plugin7Display1	DelHel
 Plugins	Plugin7Display2	Standard ES radar screen
 Plugins	Plugin10Display1	Ground Radar display
 Plugins	Plugin10Display2	Standard ES radar screen
 Plugins	Plugin11Display0	DelHel
-Plugins	Plugin11Display1	Ground Radar display
-Plugins	Plugin11Display2	Standard ES radar screen
-Plugins	Plugin12	\OBBB\Plugins\AMAN\Aman.dll
-Plugins	Plugin12Display0	DelHel
-Plugins	Plugin12Display1	Standard ES radar screen
-Plugins	Plugin12Display2	Ground Radar display
+Plugins	Plugin11Display1	Standard ES radar screen
+Plugins	Plugin11Display2	Ground Radar display
+Plugins	Plugin2Display0	Ground Radar display
+Plugins	Plugin4Display0	Standard ES radar screen
+Plugins	Plugin4Display1	Ground Radar display
+Plugins	Plugin6Display0	Ground Radar display
+Plugins	Plugin6Display1	DelHel
+Plugins	Plugin6Display2	Standard ES radar screen
+Plugins	Plugin9Display1	Ground Radar display
+Plugins	Plugin9Display2	Standard ES radar screen
