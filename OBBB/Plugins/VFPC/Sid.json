@@ -73,7 +73,7 @@
             },
             {
                "direction": "EVEN",
-               "max_fl": "60",
+               "max_fl": 60,
                "destinations": [
                   "OEDF"
                ]
