@@ -8,6 +8,7 @@
                "max_fl": 260,
                "destinations": [
                   "OKKK"
+
                ],
                "airways": [
                   "A453"
@@ -27,6 +28,7 @@
                "max_fl": 330,
                "destinations": [
                   "OOMS"
+
                ],
                "airways": [
                   "N697"
@@ -36,7 +38,14 @@
                "direction": "ODD",
                "max_fl": 250,
                "destinations": [
-                  "OM"
+                  "OMAA",
+                  "OMAD",
+                  "OMAL",
+                  "OMDB",
+                  "OMDW",
+                  "OMRK",
+                  "OMSJ"
+
                ],
                "airways": [
                   "N318",
@@ -48,6 +57,7 @@
                "max_fl": 230,
                "destinations": [
                   "OOSH"
+
                ],
                "airways": [
                   "N685"
@@ -57,10 +67,22 @@
                "direction": "ODD",
                "max_fl": 110,
                "destinations": [
-                  "OT"
+                  "OTHH",
+                  "OTBD"
+
                ],
                "airways": [
                   "N318"
+               ]
+            },
+            {
+               "direction": "EVEB",
+               "max_fl": 60,
+               "destinations": [
+                  "OEDF"
+               ],
+               "airways": [
+                  "B457"
                ]
             },
             {
@@ -69,13 +91,6 @@
                   "L319",
                   "N318",
                   "N697"
-               ]
-            },
-            {
-               "direction": "EVEN",
-               "max_fl": 60,
-               "destinations": [
-                  "OEDF"
                ]
             }
          ]
