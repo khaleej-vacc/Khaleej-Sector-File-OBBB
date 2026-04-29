@@ -105,7 +105,7 @@ Airspace_SIGMET_Areas=OBBB
 Airspace_NOTAM_Add=OBBB
 Airspace_NOTAM_Remove=OTHH
 Airspace_ASSR_Type=2
-Airspace_ASSR_AutoAssign_Type=0
+Airspace_ASSR_AutoAssign_Type=2
 
 System_TrueColorMode=1
 System_UseReportedGS=1
