@@ -14,7 +14,7 @@ Settings	SettingsfileCONFLICT	\OBBB\Settings\Lists - ACC.txt
 Settings	SettingsfileVCCS	\OBBB\Settings\VCCS.txt
 Settings	SettingsfilePILOTING	\OBBB\Settings\General\ACC.txt
 Settings	SettingsfileORIGPLANE	\OBBB\Settings\General\ACC.txt
-Settings	SettingsfileSTUP	\OBBB\Settings\General\ACC.txt
+Settings	SettingsfileSTUP	\OBBB\Settings\Lists - ACC.txt
 Settings	SettingsfileTAXIOUT	\OBBB\Settings\General\ACC.txt
 Settings	SettingsfileTAKEOFF	\OBBB\Settings\General\ACC.txt
 Settings	SettingsfileADCS	\OBBB\Settings\General\ACC.txt
