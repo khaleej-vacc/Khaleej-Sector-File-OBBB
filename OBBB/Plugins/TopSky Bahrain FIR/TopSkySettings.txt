@@ -102,10 +102,10 @@ Malrt_Irregular=IRR
 Airspace_P_Flag=OTHH
 Airspace_No_DUPE_Codes=7000,2000,2200,1200,2655,0401
 Airspace_SIGMET_Areas=OBBB
-Airspace_NOTAM_Add=OBBB,OTDF
+Airspace_NOTAM_Add=OBBB
 Airspace_NOTAM_Remove=OTHH
 Airspace_ASSR_Type=2
-Airspace_ASSR_AutoAssign_Type=0
+Airspace_ASSR_AutoAssign_Type=2
 
 System_TrueColorMode=1
 System_UseReportedGS=1
