@@ -1,0 +1,117 @@
+# yaml-language-server: $schema=./airport.schema.yaml
+
+location:
+  latitude: 26.270778611111
+  longitude: 50.633758333333
+
+sequencingHorizon: PT60M
+lockedHorizon: PT10M
+
+feederFixes: [ "ORDIG", "KOBOK", "LADNA", "TULUB", "NAGAT", "MARWA" ]
+feederFixTimelineArrivalLabelLayoutId: "bahArr"
+
+runwayThresholds:
+  30R:
+    location:
+      latitude: 26.262671944444
+      longitude: 50.647786111111
+    elevation: 8
+    trueHeading: 300
+  12L:
+    location:
+      latitude: 26.278983055556
+      longitude: 50.619521944444
+    elevation: 8
+    trueHeading: 120
+
+# Speed and altitude values should be based on typical observed values
+arrivalProfiles:
+  30R:
+    - arrivalName: "*" # Applies to all arrival routes for 30R
+      frozenSequenceArea: commonFrozenArea
+      sequencingArea: commonSequencingArea
+      fixes:
+        # Standard approaches
+        - { fix: CI30R, speed: 180, altitude: 1500, role: IF }
+        # RNP 30R
+        - { fix: BI602, speed: 180, altitude: 1400, role: IF }
+    - arrivalName: "ORDIG*"
+      fixes:
+        - { fix: ORDIG, speed: 250, altitude: 12000 }
+        - { fix: LOVAK, speed: 230, altitude: 8000 }
+        - { fix: OBSAS, speed: 230, altitude: 6000 }
+        - { fix: RIGAG, speed: 230, altitude: 5500 }
+        - { fix: NAGAT, speed: 210, altitude: 3500 }
+    - arrivalName: "KOBOK*"
+      fixes:
+        - { fix: KOBOK, speed: 250, altitude: 12000 }
+        - { fix: ELELO, speed: 230, altitude: 7000 }
+        - { fix: OBSAS, speed: 230, altitude: 5000 }
+        - { fix: RIGAG, speed: 230, altitude: 5000 }
+        - { fix: ALRAS, speed: 210, altitude: 3500 }
+    - arrivalName: "LADNA*"
+      fixes:
+        - { fix: LADNA, speed: 250, altitude: 9000 }
+        - { fix: ELELO, speed: 230, altitude: 8000 }
+        - { fix: OBSAS, speed: 230, altitude: 6000 }
+        - { fix: RIGAG, speed: 230, altitude: 5500 }
+        - { fix: NAGAT, speed: 210, altitude: 3000 }
+    - arrivalName: "TULUB"
+      fixes:
+        - { fix: TULUB, speed: 210, altitude: 12000 }
+  12L:
+    - arrivalName: "*" # Applies to all arrival routes for 12L
+      frozenSequenceArea: commonFrozenArea
+      sequencingArea: commonSequencingArea
+      fixes:
+        # Standard approaches
+        - { fix: CI12L, speed: 180, altitude: 1500, role: IF }
+        # RNP 12L
+        - { fix: BI502, speed: 180, altitude: 1400, role: IF }
+    - arrivalName: "ORDIG*"
+      fixes:
+        - { fix: ORDIG, speed: 250, altitude: 12000 }
+        - { fix: LOVAK, speed: 230, altitude: 11000 }
+        - { fix: OBSAS, speed: 230, altitude: 5000 }
+        - { fix: RIGAG, speed: 230, altitude: 5000 }
+        - { fix: ALRAS, speed: 210, altitude: 3500 }
+    - arrivalName: "KOBOK*"
+      fixes:
+        - { fix: KOBOK, speed: 250, altitude: 12000 }
+        - { fix: ELELO, speed: 230, altitude: 7000 }
+        - { fix: OBSAS, speed: 230, altitude: 5000 }
+        - { fix: RIGAG, speed: 230, altitude: 5000 }
+        - { fix: ALRAS, speed: 210, altitude: 3500 }
+    - arrivalName: "LADNA*"
+      fixes:
+        - { fix: LADNA, speed: 250, altitude: 9000 }
+        - { fix: ELELO, speed: 230, altitude: 7000 }
+        - { fix: OBSAS, speed: 230, altitude: 5000 }
+        - { fix: RIGAG, speed: 230, altitude: 5000 }
+        - { fix: ALRAS, speed: 210, altitude: 3000 }
+    - arrivalName: "TULUB"
+      fixes:
+        - { fix: TULUB, speed: 230, altitude: 12000 }
+        - { fix: RIGAG, speed: 230, altitude: 5000 }
+        - { fix: ALRAS, speed: 210, altitude: 3000 }
+
+areas:
+  commonFrozenArea:
+    ceilingFt: 13000
+    boundary:
+      # Must end at the same point as it starts to form a closed polygon
+      - N025.59.19.923 E051.00.04.915 N026.04.42.148 E050.12.15.547
+      - N026.04.42.148 E050.12.15.547 N026.34.31.223 E050.25.18.589
+      - N026.34.31.223 E050.25.18.589 N026.57.39.318 E050.02.31.617
+      - N026.57.39.318 E050.02.31.617 N026.47.18.914 E051.23.25.408
+      - N026.47.18.914 E051.23.25.408 N026.11.33.948 E051.21.59.595
+      - N026.11.33.948 E051.21.59.595 N026.18.41.979 E051.04.49.841
+      - N026.18.41.979 E051.04.49.841 N025.59.19.923 E051.00.04.915
+
+  commonSequencingArea:
+    boundary:
+      # Must end at the same point as it starts to form a closed polygon
+      - N028.47.19.582 E048.17.04.535 N025.17.35.253 E048.16.32.568
+      - N025.17.35.253 E048.16.32.568 N025.17.35.253 E053.53.48.180
+      - N025.17.35.253 E053.53.48.180 N028.52.06.241 E053.45.48.663
+      - N028.52.06.241 E053.45.48.663 N028.47.19.582 E048.17.04.535

@@ -1,0 +1,152 @@
+---
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$defs:
+  AtcClientConnectionParamsYaml:
+    type: "object"
+    properties:
+      host:
+        type: "string"
+        minLength: 1
+      port:
+        type: "integer"
+        minimum: 1
+        maximum: 65535
+    required:
+    - "host"
+    additionalProperties: false
+  ConnectionConfigYaml:
+    type: "object"
+    properties:
+      atcClient:
+        $ref: "#/$defs/AtcClientConnectionParamsYaml"
+      masterSlaveApi:
+        $ref: "#/$defs/MasterSlaveApiConnectionParamsYaml"
+    required:
+    - "atcClient"
+    - "masterSlaveApi"
+    additionalProperties: false
+  LabelItemAlignmentEnumYaml:
+    type: "string"
+    enum:
+    - "left"
+    - "center"
+    - "right"
+  LabelItemSourceEnumYaml:
+    type: "string"
+    enum:
+    - "callSign"
+    - "assignedRunway"
+    - "assignedStar"
+    - "aircraftType"
+    - "wakeCategory"
+    - "timeBehindPreceding"
+    - "minutesBehindPrecedingRounded"
+    - "remainingDistance"
+    - "distanceBehindPreceding"
+    - "directRouting"
+    - "scratchPad"
+    - "estimatedLandingTime"
+    - "estimatedArrivalTime"
+    - "scheduledArrivalTime"
+    - "groundSpeed"
+    - "groundSpeed10"
+    - "altitude"
+    - "timeToLoseOrGain"
+  LabelItemYaml:
+    type: "object"
+    properties:
+      align:
+        $ref: "#/$defs/LabelItemAlignmentEnumYaml"
+      def:
+        type: "string"
+      maxLen:
+        type: "integer"
+        minimum: 1
+      src:
+        $ref: "#/$defs/LabelItemSourceEnumYaml"
+      timeFormat:
+        type: "string"
+      via:
+        type: "boolean"
+      w:
+        type: "integer"
+        minimum: 1
+    required:
+    - "src"
+    additionalProperties: false
+  Map(String,List(LabelItemYaml)):
+    type: "object"
+    additionalProperties:
+      type: "array"
+      items:
+        $ref: "#/$defs/LabelItemYaml"
+  MasterSlaveApiConnectionParamsYaml:
+    type: "object"
+    properties:
+      host:
+        type: "string"
+        minLength: 1
+    required:
+    - "host"
+    additionalProperties: false
+  PlanningSettingsYaml:
+    type: "object"
+    properties:
+      feederFixMaxAbeamDistanceNm:
+        type: "number"
+        description: "Maximum perpendicular distance from the trajectory (NM) at which\
+          \ a feeder fix is considered abeam. Feeder fixes further away than this\
+          \ will not show on the feeder fix timeline."
+        exclusiveMinimum: 0.0
+      useGroundspeedOnDirectRouting:
+        type: "boolean"
+        description: "When aircraft is given direct IF/IAF, base predictions on current\
+          \ speed instead of speed from performance model."
+    additionalProperties: false
+  ThemeYaml:
+    type: "string"
+    enum:
+    - "JTattoo"
+    - "FlatLaf"
+  LegacyAirportAreaYaml:
+    type: "array"
+    items:
+      type: "string"
+  AirportAreaYamlObject:
+    type: "object"
+    properties:
+      boundary:
+        type: "array"
+        items:
+          type: "string"
+      ceilingFt:
+        type: "integer"
+        exclusiveMinimum: 0
+    required:
+    - "boundary"
+    additionalProperties: false
+  AirportAreaYaml:
+    oneOf:
+    - $ref: "#/$defs/LegacyAirportAreaYaml"
+    - $ref: "#/$defs/AirportAreaYamlObject"
+  Map(String,AirportAreaYaml):
+    type: "object"
+    additionalProperties:
+      $ref: "#/$defs/AirportAreaYaml"
+type: "object"
+properties:
+  arrivalLabelLayouts:
+    $ref: "#/$defs/Map(String,List(LabelItemYaml))"
+    minProperties: 1
+  connectionConfig:
+    $ref: "#/$defs/ConnectionConfigYaml"
+  departureLabelLayouts:
+    $ref: "#/$defs/Map(String,List(LabelItemYaml))"
+  planningSettings:
+    $ref: "#/$defs/PlanningSettingsYaml"
+  theme:
+    $ref: "#/$defs/ThemeYaml"
+required:
+- "arrivalLabelLayouts"
+- "connectionConfig"
+additionalProperties: false

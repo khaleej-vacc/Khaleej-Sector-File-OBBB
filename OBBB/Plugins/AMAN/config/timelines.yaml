@@ -1,0 +1,30 @@
+---
+timelines:
+  OBBI:
+    defaults:
+      defaultArrivalLabelLayoutId: "bahArr"
+      defaultDepartureLabelLayoutId: "bahDep"
+    runwayBased:
+    - timelineTitle: "30R"
+      timelineId: "7e95ef21-a29d-4ecf-ada4-bdc8f1f483a6"
+      left: []
+      right:
+      - "30R"
+      arrivalLabelLayoutId: "bahArr"
+      departureLabelLayoutId: "bahDep"
+    - timelineTitle: "12L"
+      timelineId: "6d118d6e-bece-43b7-8578-de76c814d745"
+      left: []
+      right:
+      - "12L"
+      arrivalLabelLayoutId: "bahArr"
+      departureLabelLayoutId: "bahDep"
+    - timelineTitle: "OBBI ALL"
+      timelineId: "dbc92cf6-7f0d-4a77-bf3a-3943e58da463"
+      left: []
+      right:
+      - "30R"
+      - "12L"
+      arrivalLabelLayoutId: "bahArr"
+      departureLabelLayoutId: "bahDep"
+    feederFixBased: []

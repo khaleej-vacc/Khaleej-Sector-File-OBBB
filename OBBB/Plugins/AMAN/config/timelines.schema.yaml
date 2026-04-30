@@ -1,0 +1,116 @@
+---
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$defs:
+  AirportTimelinesYaml:
+    type: "object"
+    properties:
+      defaults:
+        $ref: "#/$defs/TimelineDefaultsYaml"
+      feederFixBased:
+        type: "array"
+        items:
+          $ref: "#/$defs/FeederFixTimelineYaml"
+      runwayBased:
+        type: "array"
+        items:
+          $ref: "#/$defs/RunwayTimelineYaml"
+    required:
+    - "defaults"
+    - "feederFixBased"
+    - "runwayBased"
+    additionalProperties: false
+  FeederFixTimelineYaml:
+    type: "object"
+    properties:
+      arrivalLabelLayoutId:
+        type: "string"
+      left:
+        type: "array"
+        items:
+          type: "string"
+      right:
+        minItems: 1
+        type: "array"
+        items:
+          type: "string"
+      timelineId:
+        type: "string"
+      timelineTitle:
+        type: "string"
+        minLength: 1
+    required:
+    - "right"
+    - "timelineTitle"
+    additionalProperties: false
+  Map(String,AirportTimelinesYaml):
+    type: "object"
+    additionalProperties:
+      $ref: "#/$defs/AirportTimelinesYaml"
+  RunwayTimelineYaml:
+    type: "object"
+    properties:
+      arrivalLabelLayoutId:
+        type: "string"
+      departureLabelLayoutId:
+        type: "string"
+      left:
+        type: "array"
+        items:
+          type: "string"
+      right:
+        minItems: 1
+        type: "array"
+        items:
+          type: "string"
+      timelineId:
+        type: "string"
+      timelineTitle:
+        type: "string"
+        minLength: 1
+    required:
+    - "right"
+    - "timelineTitle"
+    additionalProperties: false
+  TimelineDefaultsYaml:
+    type: "object"
+    properties:
+      defaultArrivalLabelLayoutId:
+        type: "string"
+        minLength: 1
+      defaultDepartureLabelLayoutId:
+        type: "string"
+    required:
+    - "defaultArrivalLabelLayoutId"
+    additionalProperties: false
+  LegacyAirportAreaYaml:
+    type: "array"
+    items:
+      type: "string"
+  AirportAreaYamlObject:
+    type: "object"
+    properties:
+      boundary:
+        type: "array"
+        items:
+          type: "string"
+      ceilingFt:
+        type: "integer"
+        exclusiveMinimum: 0
+    required:
+    - "boundary"
+    additionalProperties: false
+  AirportAreaYaml:
+    oneOf:
+    - $ref: "#/$defs/LegacyAirportAreaYaml"
+    - $ref: "#/$defs/AirportAreaYamlObject"
+  Map(String,AirportAreaYaml):
+    type: "object"
+    additionalProperties:
+      $ref: "#/$defs/AirportAreaYaml"
+type: "object"
+properties:
+  timelines:
+    $ref: "#/$defs/Map(String,AirportTimelinesYaml)"
+required:
+- "timelines"
+additionalProperties: false

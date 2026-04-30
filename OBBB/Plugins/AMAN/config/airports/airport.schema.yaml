@@ -1,0 +1,158 @@
+---
+$schema: "https://json-schema.org/draft/2020-12/schema"
+$defs:
+  ArrivalFixRoleYaml:
+    type: "string"
+    enum:
+    - "IF"
+    - "IAF"
+  ArrivalProfileFixYaml:
+    type: "object"
+    properties:
+      altitude:
+        type: "integer"
+        description: "Expected altitude at the fix in feet AMSL"
+      fix:
+        type: "string"
+      role:
+        $ref: "#/$defs/ArrivalFixRoleYaml"
+      speed:
+        type: "integer"
+        description: "Expected indicated airspeed in knots (IAS)"
+    required:
+    - "fix"
+    additionalProperties: false
+  ArrivalProfileYaml:
+    type: "object"
+    properties:
+      arrivalName:
+        type: "string"
+        description: "Arrival name or procedure name. One or multiple wildcards (*)\
+          \ can be used to match multiple arrival names"
+      fixes:
+        type: "array"
+        items:
+          $ref: "#/$defs/ArrivalProfileFixYaml"
+      frozenSequenceArea:
+        type: "string"
+        description: "Optional airport area id that makes matching arrivals frozen\
+          \ for sequencing while inside the area"
+      sequencingArea:
+        type: "string"
+        description: "Optional airport area id. Aircraft inside this area are included\
+          \ in the active sequencing window regardless of sequencingHorizon."
+    required:
+    - "arrivalName"
+    - "fixes"
+    additionalProperties: false
+  JsonNode:
+    type: "object"
+    additionalProperties: false
+  LocationJson:
+    type: "object"
+    properties:
+      latitude:
+        type: "number"
+      longitude:
+        type: "number"
+    additionalProperties: false
+  Map(String,Integer):
+    type: "object"
+    additionalProperties:
+      type: "integer"
+  Map(String,JsonNode):
+    type: "object"
+    additionalProperties:
+      $ref: "#/$defs/JsonNode"
+  Map(String,List(ArrivalProfileYaml)):
+    type: "object"
+    additionalProperties:
+      type: "array"
+      items:
+        $ref: "#/$defs/ArrivalProfileYaml"
+  Map(String,Map(String,Integer)):
+    type: "object"
+    additionalProperties:
+      $ref: "#/$defs/Map(String,Integer)"
+  Map(String,RunwayThresholdJson):
+    type: "object"
+    additionalProperties:
+      $ref: "#/$defs/RunwayThresholdJson"
+  RunwayThresholdJson:
+    type: "object"
+    properties:
+      elevation:
+        type: "number"
+      location:
+        $ref: "#/$defs/LocationJson"
+      trueHeading:
+        type: "number"
+    required:
+    - "location"
+    additionalProperties: false
+  LegacyAirportAreaYaml:
+    type: "array"
+    items:
+      type: "string"
+  AirportAreaYamlObject:
+    type: "object"
+    properties:
+      boundary:
+        type: "array"
+        items:
+          type: "string"
+      ceilingFt:
+        type: "integer"
+        exclusiveMinimum: 0
+    required:
+    - "boundary"
+    additionalProperties: false
+  AirportAreaYaml:
+    oneOf:
+    - $ref: "#/$defs/LegacyAirportAreaYaml"
+    - $ref: "#/$defs/AirportAreaYamlObject"
+  Map(String,AirportAreaYaml):
+    type: "object"
+    additionalProperties:
+      $ref: "#/$defs/AirportAreaYaml"
+type: "object"
+properties:
+  areas:
+    $ref: "#/$defs/Map(String,AirportAreaYaml)"
+  arrivalProfiles:
+    $ref: "#/$defs/Map(String,List(ArrivalProfileYaml))"
+  feederFixTimelineArrivalLabelLayoutId:
+    type: "string"
+  feederFixTransitTimesMinutes:
+    $ref: "#/$defs/Map(String,Map(String,Integer))"
+    additionalProperties:
+      $ref: "#/$defs/Map(String,Integer)"
+      additionalProperties:
+        type: "integer"
+  feederFixes:
+    type: "array"
+    items:
+      type: "string"
+  independentRunwaySystems:
+    type: "array"
+    items:
+      type: "array"
+      items:
+        type: "string"
+  location:
+    $ref: "#/$defs/LocationJson"
+  lockedHorizon:
+    type: "string"
+    format: "duration"
+  runwayThresholds:
+    $ref: "#/$defs/Map(String,RunwayThresholdJson)"
+  sequencingHorizon:
+    type: "string"
+    format: "duration"
+  weatherFetchRadiusNm:
+    type: "number"
+    exclusiveMinimum: 0
+required:
+- "location"
+- "runwayThresholds"
+additionalProperties: false
