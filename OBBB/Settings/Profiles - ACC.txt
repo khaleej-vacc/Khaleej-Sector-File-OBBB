@@ -32,7 +32,7 @@ ATIS2:"Bahrain Radar"
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBB_FM_CTR:400:6
-ATIS2:"Bahrain Radar Flow Manager"
+ATIS2:"Bahrain Flow"
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 END
