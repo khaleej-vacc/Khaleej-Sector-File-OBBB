@@ -81,7 +81,6 @@ LastSession	proxyserver	localhost
 LastSession	simdatapublish	0
 Settings	sector	\OBBB-Install-Package_20260121101100-251301-0007.sct
 Plugins	Plugin8	\OBBB\Plugins\VATCAN Plugin\VATCANBookings.dll
-Plugins	Plugin8Display0	Standard ES radar screen
 Plugins	Plugin9	\OBBB\Plugins\vSID\vSID.dll
 Plugins	Plugin9Display0	DelHel
 Plugins	Plugin10	\OBBB\Plugins\CDM\CDM.dll
