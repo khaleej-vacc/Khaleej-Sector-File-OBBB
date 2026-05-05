@@ -7,7 +7,9 @@
                "direction": "EVEN",
                "max_fl": 260,
                "destinations": [
-                  "OKKK"
+                  "OKKK",
+                  "OKAS",
+                  "OKAJ"
 
                ],
                "airways": [
