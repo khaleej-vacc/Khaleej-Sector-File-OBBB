@@ -62,7 +62,7 @@ m_Resizable:1
 m_OrderingColumn:6
 m_HeaderOnly:0
 m_Column:REQ:4:1:546:548:548:1:VCH:VCH:VCH:0:0.0
-m_Column:PRT:3:1:544:346:0:0:VCH:VCH::0:0.0
+m_Column:PRT:3:1:544:346:0:1:VCH:VCH::0:0.0
 m_Column:POS:4:1:1:0:0:1:Ground Radar plugin:::0:0.0
 m_Column:EOBT:5:1:1:120:100:0:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
 m_Column:TOBT:5:1:4:121:115:0:CDM Plugin:CDM Plugin:CDM Plugin:0:0.0
