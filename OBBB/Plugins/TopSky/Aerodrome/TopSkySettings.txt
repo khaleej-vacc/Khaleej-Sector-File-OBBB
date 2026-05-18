@@ -1,14 +1,3 @@
-// File created for the Khaleej vACC - Bahrain FIR (OBBB)
-// Developed and maintained by Moiz Uddin (1758952)
-//
-// Last Change by Moiz Uddin
-//
-// Changelog:
-// 14/04/2024 - Initial Release
-// 19/06/2024 - Redesign of file structure to align with standard practices in other sectors.
-//
-// To be used on the VATSIM Network only
-
 Setup_COOPANS=1
 Setup_AutoSignIn=1
 
@@ -99,13 +88,13 @@ Malrt_Misap=MAPP
 Malrt_Inbound_EST=EST
 Malrt_Irregular=IRR
 
-Airspace_P_Flag=OTHH
+Airspace_P_Flag=OBBI
 Airspace_No_DUPE_Codes=7000,2000,2200,1200,2655,0401
 Airspace_SIGMET_Areas=OBBB
-Airspace_NOTAM_Add=OBBB,OTDF
+Airspace_NOTAM_Add=OBBB
 Airspace_NOTAM_Remove=OTHH
 Airspace_ASSR_Type=2
-Airspace_ASSR_AutoAssign_Type=0
+Airspace_ASSR_AutoAssign_Type=2
 
 System_TrueColorMode=1
 System_UseReportedGS=1
@@ -135,8 +124,8 @@ Color_AIW_Intrusion=255,152,0
 Color_Arm=97,97,97
 Color_Assumed=132,255,132
 Color_Background=42,44,44
-Color_Border=51,51,52
-Color_BottomShadow=70,70,70
+Color_Border=38,38,38
+Color_BottomShadow=21,23,26
 Color_CARD_Mark_All=212,128,44
 Color_CARD_Mark_Own=212,128,44
 Color_CARD_Min_Sep=61,61,61
@@ -169,7 +158,7 @@ Color_Inactive_Sector=67,73,76
 Color_Info_Coord=1,255,255
 Color_Information=110,245,110
 Color_Information_FL=0,255,0
-Color_Informed=275,125,175
+Color_Informed=255,125,175
 Color_Map_1=80,95,80
 Color_Map_2=44,44,44
 Color_Map_3=100,108,111
@@ -207,7 +196,7 @@ Color_SMW_Overshoot=239,224,41
 Color_System_Calculated_TOC=170,231,197
 Color_System_Calculated_TOD=170,231,197
 Color_Text_Notes=255,0,0
-Color_TopShadow=155,158,159
+Color_TopShadow=89,88,88
 Color_Track_Default=210,210,210
 Color_Track_Highlight=0,165,219
 Color_Trough=97,99,97
@@ -215,7 +204,7 @@ Color_TSA_Active=93,138,195
 Color_TSA_Border_Highlight=0,0,0
 Color_TSA_Filter=0,0,255
 Color_TSA_Preactive=132,142,139
-Color_Unconcerned=180,180,180
+Color_Unconcerned=80,80,80
 Color_Unknown=239,224,42
 Color_Urgency=225,25,25
 Color_Urgency_FL=225,25,25
@@ -224,11 +213,11 @@ Color_VAW_Profile=152,202,172
 Color_VAW_Sector_Limits=145,95,30
 Color_VAW_Track_Position=219,219,219
 Color_Warning_FL=240,225,41
-Color_WM_Active_Fg=20,20,21
-Color_WM_Bg=183,173,172
-Color_WM_Border=183,173,172
-Color_WM_Fg=20,20,21
-Color_WM_Frame=183,173,172
+Color_WM_Active_Fg=255,254,254
+Color_WM_Bg=100,100,105
+Color_WM_Border=88,95,99
+Color_WM_Fg=180,184,181
+Color_WM_Frame=88,95,99
 
 // Labels
 Label_SI_ShowFreq=1
@@ -240,3 +229,9 @@ Label_Alt_Digits=2
 
 Label_COP_MaxChars=3
 Label_FCOP_MaxChars=3
+
+List_TfcMgmt1_ADES=OBBI
+List_TfcMgmt1_FPstate=3
+List_TfcMgmt_MaxTime=60
+List_TfcMgmt_MinState=1
+
