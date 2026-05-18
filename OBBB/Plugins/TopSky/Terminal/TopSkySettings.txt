@@ -1,14 +1,3 @@
-// File created for the Khaleej vACC - Bahrain FIR (OBBB)
-// Developed and maintained by Moiz Uddin (1758952)
-//
-// Last Change by Moiz Uddin
-//
-// Changelog:
-// 14/04/2024 - Initial Release
-// 19/06/2024 - Redesign of file structure to align with standard practices in other sectors.
-//
-// To be used on the VATSIM Network only
-
 Setup_COOPANS=1
 Setup_AutoSignIn=1
 
@@ -99,7 +88,7 @@ Malrt_Misap=MAPP
 Malrt_Inbound_EST=EST
 Malrt_Irregular=IRR
 
-Airspace_P_Flag=OTHH
+Airspace_P_Flag=OBBI
 Airspace_No_DUPE_Codes=7000,2000,2200,1200,2655,0401
 Airspace_SIGMET_Areas=OBBB
 Airspace_NOTAM_Add=OBBB
@@ -169,7 +158,7 @@ Color_Inactive_Sector=67,73,76
 Color_Info_Coord=1,255,255
 Color_Information=110,245,110
 Color_Information_FL=0,255,0
-Color_Informed=275,125,175
+Color_Informed=255,125,175
 Color_Map_1=80,95,80
 Color_Map_2=44,44,44
 Color_Map_3=100,108,111
@@ -240,9 +229,3 @@ Label_Alt_Digits=2
 
 Label_COP_MaxChars=3
 Label_FCOP_MaxChars=3
-
-List_TfcMgmt1_ADES=OBBI
-List_TfcMgmt1_FPstate=3
-List_TfcMgmt_MaxTime=60
-List_TfcMgmt_MinState=1
-
