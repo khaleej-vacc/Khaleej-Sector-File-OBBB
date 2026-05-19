@@ -40,7 +40,7 @@ TeamSpeakVccs	Ts3DialogLeft	0
 TeamSpeakVccs	Ts3DialogTop	0
 TeamSpeakVccs	Ts3DialogRight	896
 TeamSpeakVccs	Ts3DialogBottom	561
-Sounds	Sound18	\OBBB\Sounds\startup.wav
+Sounds	Sound18	\OBBB\Sounds\startupTMA.wav
 Sounds	Sound0	\OBBB\Sounds\handoff_request.wav
 Sounds	Sound1	\OBBB\Sounds\handoff_accept.wav
 Sounds	Sound2	\OBBB\Sounds\conflict_alert.wav
