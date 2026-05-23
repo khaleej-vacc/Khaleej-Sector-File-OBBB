@@ -97,6 +97,7 @@ Airspace_NOTAM_Remove=OTHH
 Airspace_ASSR_Type=2
 Airspace_ASSR_AutoAssign_Type=2
 
+System_TransferConfirmation=0
 System_TrueColorMode=1
 System_UseReportedGS=1
 System_ASP_IasMach=30000
