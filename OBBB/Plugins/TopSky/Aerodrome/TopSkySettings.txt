@@ -1,3 +1,4 @@
+Maps_URL=https://raw.githubusercontent.com/khaleej-vacc/Khaleej-Sector-File-OBBB/refs/heads/main/OBBB/Plugins/TopSky/Aerodrome/TopSkyMaps.txt
 Setup_COOPANS=1
 Setup_AutoSignIn=1
 
