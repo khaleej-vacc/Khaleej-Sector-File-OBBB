@@ -1,4 +1,4 @@
-Maps_URL=Maps_URL=https://raw.githubusercontent.com/khaleej-vacc/Khaleej-Sector-File-OBBB/refs/heads/main/OBBB/Plugins/TopSky/Enroute%20-%20Light/TopSkyMaps.txt
+Maps_URL=https://raw.githubusercontent.com/khaleej-vacc/Khaleej-Sector-File-OBBB/refs/heads/main/OBBB/Plugins/TopSky/Enroute%20-%20Light/TopSkyMaps.txt
 Setup_COOPANS=1
 Setup_AutoSignIn=1
 
