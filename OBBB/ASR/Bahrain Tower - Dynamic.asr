@@ -1,8 +1,8 @@
 DisplayTypeName:Standard ES radar screen
 DisplayTypeNeedRadarContent:1
 DisplayTypeGeoReferenced:1
-SECTORFILE:C:\Users\USER\Downloads\OBBB-Install-Package_20260121101100-251301-0007\OBBB-Install-Package_20260121101100-251301-0007.sct
-SECTORTITLE:OBBB-Install-Package_20260121101100-251301-0007.sct
+SECTORFILE:
+SECTORTITLE:
 Geo:GEO:
 Geo:OBBB Landmark Coastline:
 SHOWC:1
