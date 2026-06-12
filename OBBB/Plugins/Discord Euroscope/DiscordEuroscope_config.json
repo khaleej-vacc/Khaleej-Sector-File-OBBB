@@ -1,7 +1,7 @@
 {
     "discord_appid": "1514723489100075192",
     "discord_presence_large_image_key" : "khlj",
-    "discord_presence_small_image_key" : "",
+    "discord_presence_small_image_key" : "bhr",
     "sweatbox_bypass" : false,
     "states" : {
         "idle": {
