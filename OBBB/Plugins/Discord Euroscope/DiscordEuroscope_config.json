@@ -26,7 +26,7 @@
             "state" : "",
             "details" : "Controller Skill Update in Progress",
             "presence_small_image_text" : "",
-            "presence_large_image_text" : "{callsign}"
+            "presence_large_image_text" : ""
         },
         "direct": {
             "presence_small_image_key": "",
@@ -34,7 +34,7 @@
             "state" : "",
             "details" : "",
             "presence_small_image_text" : "",
-            "presence_large_image_text" : "{callsign}",
+            "presence_large_image_text" : "",
 
             "if_observer" : {
                 "presence_small_image_key": "",
