@@ -15,7 +15,7 @@ PROFILE:OBBB_CL_CTR:400:6
 ATIS2:"Bahrain Radar"
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
-PROFILE:OBBB_3_CTR:400:6
+PROFILE:OBBB_2_CTR:400:6
 ATIS2:"Bahrain Radar" - CPDLC [OBBN]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
