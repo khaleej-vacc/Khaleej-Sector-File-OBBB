@@ -8,19 +8,19 @@ ATIS2:"Bahrain Radar" - CPDLC/DCL [OBBB]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBB_CH_CTR:400:6
-ATIS2:"Bahrain Radar"
+ATIS2:"Bahrain Radar" - CPDLC [OBCH]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBB_CL_CTR:400:6
-ATIS2:"Bahrain Radar"
+ATIS2:"Bahrain Radar" - CPDLC [OBCL]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBB_2_CTR:400:6
-ATIS2:"Bahrain Radar" - CPDLC [OBBN]
+ATIS2:"Bahrain Radar" - CPDLC [OBB2]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 PROFILE:OBBB_N_CTR:400:6
-ATIS2:"Bahrain Radar"
+ATIS2:"Bahrain Radar" - CPDLC [OBBN]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
 END
