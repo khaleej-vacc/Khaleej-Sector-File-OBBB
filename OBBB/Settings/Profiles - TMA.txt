@@ -3,11 +3,11 @@ PROFILE:[INITIALS]_OBS:300:0
 ATIS2:Khaleej vACC - Observer
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
-PROFILE:BAH_APP:150:5
+PROFILE:OBBI_APP:150:5
 ATIS2:"Bahrain Approach" - DCL [OBBI]
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
-PROFILE:BAH_DEP:150:5
+PROFILE:OBBI_DEP:150:5
 ATIS2:"Bahrain Approach" - TURN IMMEDIATELY WHEN INSTRUCTED!
 ATIS3:Give us feedback! - vats.im/khatcfdb
 ATIS4:Welcome to Bahrain | Visit khaleejvacc.net
