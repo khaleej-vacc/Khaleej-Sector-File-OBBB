@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <CDM>
-	<rate ops="40" />
+	<rate ops="20" />
 	<rateLvo ops="10" />
 	<expiredCtot time="25" />
 	<realMode mode="true" />
@@ -8,7 +8,7 @@
 	<pilotTobt mode="true" />
 	<autoAtot mode="false" />
 	<invalidateAtTsat mode="true" />
-	<invalidateAtTobt mode="true" />
+	<invalidateAtTobt mode="false" />
 	<readySetTsac mode="true" />
 	<Rates url="https://raw.githubusercontent.com/khaleej-vacc/Khaleej-Sector-File-OBBB/refs/heads/main/OBBB/Plugins/CDM/rate.txt" />
 	<Taxizones url="https://raw.githubusercontent.com/khaleej-vacc/Khaleej-Sector-File-OBBB/refs/heads/main/OBBB/Plugins/CDM/taxizones.txt" />
@@ -20,7 +20,7 @@
 	<eventModeMin time="5" />
 	<RefreshTime seconds="10" />
 	<Debug mode="false" />
-	<FlowRestrictions url="https://ecfmp.vatsim.net/api/v1/plugin" />
+	<customRestricted url="" />
 	<vdgsFileType type="3"/>
 	<ftpHost host="" />
 	<ftpUser user="" />
@@ -33,6 +33,12 @@
 	<eventPriority mode="true" />
 	<autoSetTobtFromEvSlot mode="true" />
 	<remarksOptionCtot mode="false" />
+	<disableTobtReqAfterAsrt mode="true" />
 	<PrivateMessage text="[CDM MSG] PLEASE, MONITOR https://vats.im/vdgs FOR CDM AND ATFCM UPDATES. [END OF CDM MSG]" />
 	<loading text="...." />
+	<nonCdmEarlyClearenceColor minutes="0" />
+	<AtfcmPrivateMessage
+		fls="[ATFCM MSG] OFF-BLOCK TIME EXPIRED - {CALLSIGN} ({EOBT} - {TOBT}). Please update your off-block time."
+        slot="[ATFCM MSG] SLOT ALLOCATION - {CALLSIGN} ({EOBT} - {TOBT}) CTOT:{CTOT} REGUL:{REGUL}. Please monitor for updates."
+	/>
 </CDM>

@@ -71,6 +71,10 @@ HTTP_GRIB_Longitude_Max=55
 HTTP_GRIB_Longitude_Min=45
 
 Shortcut_RadarMenu_Combo=0x12
+Shortcut_Map_Xfr_Key=1,0x56 ; V
+Shortcut_Map_Target=1,VFR
+Shortcut_Map_Xfr_Key=1,0x52 ; R
+Shortcut_Map_Target=1,ASP BAHRAIN ARPT - RCF
 
 CPDLC_Default=0
 CPDLC_MinLevel=315
